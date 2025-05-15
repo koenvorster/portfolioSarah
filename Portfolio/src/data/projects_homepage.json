@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Internship in Beja",
+    "description": "  This project involved designing and developing a user-friendly interface, integrating  real-time data, and ensuring the app met the needs of the stakeholders.",
+    "image": "./src/assets/img/foto/Project_Beja/dashboardInternship.png",
+    "link": "/internship"
+  },
+  {
+    "id": 2,
+    "title": "Travelblog",
+    "description": "For this assignment, I developed a quiz application in TypeScript. In doing so, I implemented several features, such as question retrieval via an API and input validation..",
+    "image": "./src/assets/img/foto/CodingQuiz/CodingQuiz.jpg",
+    "link": "/projecten/Travelblog"
+  },
+  {
+    "id": 3,
+    "title": "portfolio Sarah",
+    "description": "  Several pages were created with their own purpose. There was a homepage and a contact page, as well as a page to keep track of events.",
+    "image": "./src/assets/img/foto/ProjectPortfolio1Sarah/portfolio_Sarah.jpg",
+    "link": "/projecten/Portfoliosarah"
+  }
+  ]

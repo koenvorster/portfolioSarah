@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "title": "Internship Project",
+      "description": "This project involved designing and developing a user-friendly interface, integrating  real-time data.",
+      "image": "./src/assets/img/foto/cardsProjecten/ProjectBeja.jpg",
+
+      "link": "/Internship",
+      "category": "School Projects"
+    },
+    {
+      "id": 2,
+      "title": "Travelblog",
+      "description": "Description of school project 2.",
+      "image": "./src/assets/img/foto/cardsProjecten/Travelblog.png",
+      "link": "/projecten/Travelblog",
+      "category": "School Projects"
+    },
+    {
+      "id": 3,
+      "title": "Project Portfolio",
+      "description": "Description of school project 3.",
+      "image": "./src/assets/img/foto/portfoliocard.jpg",
+      "link": "https://example.com/project3",
+      "category": "School Projects"
+    },
+    {
+      "id": 1,
+      "title": "Design Project1",
+      "description": "Description of creative design project.",
+      "image": "./src/assets/img/foto/cardsProjecten/planten1.jpg",
+      "link": "https://example.com/project1",
+      "category": "Create & Design"
+    },
+    {
+      "id": 2,
+      "title": " Design Project2",
+      "description": "Description of creative design project.",
+      "image": "./src/assets/img/foto/cardsProjecten/designhouse.jpg",
+      "link": "https://example.com/project2",
+      "category": "Create & Design"
+    },
+  {
+    "id": 3,
+    "title": " Design Project3",
+    "description": "Description of creative design project.",
+    "image": "./src/assets/img/foto/cardsProjecten/fotowater.jpg",
+    "link": "https://example.com/project2",
+    "category": "Create & Design"
+  },
+    {
+      "id": 3,
+      "title": "hackathon",
+      "description": "Description of extra project.",
+      "image": "./src/assets/img/foto/Travelapp/travel_App.jpg",
+      "link": "https://example.com/project3",
+      "category": "Extra"
+    },
+    {
+      "id": 4,
+      "title": "hackademy",
+      "description": "Talks events.",
+      "image": "./src/assets/img/foto/cardsProjecten/eveningtalks.jpg",
+      "link": "https://example.com/project4",
+      "category": "Extra"
+    },
+    {
+      "id": 5,
+      "title": "Robocup and AI talk",
+      "description": "Meet whith Lieve Scheire and Learn about robotica.",
+      "image": "./src/assets/img/foto/AI_talk.jpg",
+      "link": "https://example.com/project5",
+      "category": "Extra"
+    }
+  ]
