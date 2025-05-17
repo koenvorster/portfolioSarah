@@ -148,6 +148,7 @@ portfolio/
 - Implement a loading spinner for better user experience.
 - Add a progress bar for better user experience.
 - Implement a sticky header for better navigation.
+- Add a back-to-top button for better navigation.
 
 
 # License
