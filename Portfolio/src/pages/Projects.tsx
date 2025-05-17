@@ -116,19 +116,21 @@ const Projects: FC = () => {
 
                     {filteredProjects.map((project) => (
                         <div key={project.id} className="card ">
+                            <div className="card-image">
                             <img
                                 src={project.image}
                                 alt={project.title}
                                 className="card-img"
                             />
+                            </div>
                             <div className="p-4">
-                                <h2 className="text-xl font-semibold">{project.title}</h2>
-                                <p className="text-gray-600">{project.description}</p>
-                                <button
-                                >
+                                <h2 className=" font-semibold">{project.title}</h2>
+                                <p className="  card-text text-gray-600">{project.description}</p>
+                                <div className="buttoncontainer">
+                                <button>
                                     <a href={project.link}>  View Project</a>
-
                                 </button>
+                            </div>
                             </div>
                         </div>
 

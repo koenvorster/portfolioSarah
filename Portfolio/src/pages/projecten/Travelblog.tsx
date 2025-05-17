@@ -4,11 +4,15 @@ const Travelblog: FC = () => {
     return (
         <div className="travelblog-container">
             <h1 className="travelblog-title">Travelblog</h1>
-            <section className="features-section">
+            <section className="sectionContainer4">
                 <h2 className="features-title">Key Features</h2>
+                <div className="divider"></div>
+
+            </section>
 <img src="/src/assets/img/foto/Travelapp/travel_App.jpg" alt="Travelblog" className="travelblog-image" />
-                <p className="card2 ">
-                    The Travelblog application is a schooll project developed during my 2de year at
+                <div className="sectionContainer7">
+                <p className="cardTravelblog">
+                    The Travelblog application is a school project developed during my 2de year at
                     Thomas More. It was created to enhance my skills in web and mobile development, focusing on
                     creating a platform for users to share their travel experiences and insights.
                 </p>
@@ -16,15 +20,18 @@ const Travelblog: FC = () => {
                     The Travelblog application is designed to provide users with a seamless experience in
                     sharing and discovering travel-related content. The key features include:
                 </p>
+                <div className="divider"></div>
                 <ul className="features-list">
-                    <li>User Registration and Authentication</li>
-                    <li>Blog Management</li>
-                    <li>Commenting System with Comments</li>
-                    <li>Mark Favorites</li>
+                    <li className={"card"}>User Registration and Authentication</li>
+                    <li className={"card"}>Blog Management</li>
+                    <li className={"card"}>Commenting System with Comments</li>
+                    <li className={"card"}>Mark Favorites</li>
                 </ul>
-            </section>
-            <img src="/src/assets/img/foto/Travelapp/travelappsmartphone.png" alt="Travelblog" className="travelblog-image" />
-            <section className="technologies-section">
+                </div>
+
+
+
+            <section className="card1">
                 <h2 className="technologies-title">Technologies</h2>
                 <ul className="technologies-list">
                     <li>Web Application: Next.js</li>

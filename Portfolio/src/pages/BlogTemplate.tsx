@@ -18,13 +18,15 @@ const BlogTemplate: React.FC<BlogTemplateProps> = ({ title, image, content, auth
         </header>
         <div className="blog-content">
         <img src={image} alt={title} className="blog-image"/>
-        <article className="">
-            <p>{content}</p>
-            <p className="blog-meta">
-                By <span className="blog-author">{author}</span> on <span className="blog-date">{date}</span>
-            </p>
+            <article className="">
+                <p className="text-right">{content}</p>
 
-        </article>
+                <img src="/src/assets/img/foto/sarah1.jpg" alt="Background" className="img_me"/>
+                <p className="blog-meta">
+
+                    By <span className="blog-author">{author}</span> on <span className="blog-date">{date}</span>
+                </p>
+            </article>
         </div>
     </div>
   );

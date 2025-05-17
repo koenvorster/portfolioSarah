@@ -4,7 +4,6 @@ import Home from '@/pages/Home.tsx'
 import Projects from '@/pages/Projects.tsx'
 import Skills from '@/pages/Skills.tsx'
 import About from '@/pages/About.tsx'
-import Project_mobile_appje from '@/pages/projecten/Project_mobile_app.tsx'
 import Internship from '@/pages/Internship.tsx'
 import Project_mobile_app from "@/pages/projecten/Project_mobile_app.tsx";
 import PortfolioSarah from "@/pages/projecten/PortfolioSarah.tsx";
@@ -13,8 +12,8 @@ import Travelblog from "@/pages/projecten/Travelblog.tsx";
 import Contact from "@/pages/Contact.tsx";
 import Cv from "@/pages/CV.tsx";
 import BlogOverview from "@/pages/BlogOverview.tsx";
-import BlogRobocup from "@/pages/Blog_Robocup.tsx";
-import Blog_Template from "@/pages/Blog_internship.tsx";
+import Blog_robocup from "@/pages/Blog_robocup.tsx";
+import Blog_hackathon from "@/pages/Blog_hackathon.tsx";
 import Blog_internship from "@/pages/Blog_internship.tsx";
 
 
@@ -37,8 +36,9 @@ const App: React.FC = () => {
         <Route path='/cv' element={<Cv />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/blogoverview' element={<BlogOverview />} />
-        <Route path='/blog/Blog_Robocup' element={<BlogRobocup />} />
+        <Route path='/blog/Blog_robocup' element={<Blog_robocup />} />
         <Route path='/blog/Blog_internship' element={<Blog_internship />} />
+        <Route path='/blog/Blog_hackathon' element={<Blog_hackathon />} />
 
       </Routes>
     </>

@@ -27,7 +27,7 @@ const BlogOverview: React.FC = () => {
                     description: "How to make the most of your hackathon experience." + "\n" +
                         "Hackathons are intense, fast-paced events where you can learn, create, and collaborate with others. Here are some tips to make the most of your hackathon experience",
                     image: "/src/assets/img/foto/Blog/hackathon.jpg",
-                    link: "/blog/css-grid-flexbox",
+                    link: "/blog/Blog_hackathon",
                 },
                 {
                     id: 3,
@@ -46,7 +46,7 @@ const BlogOverview: React.FC = () => {
     }, []);
 
     return (
-        <section className="blog-overview py-12">
+        <section className="sectionContainer6">
             <h1 className="text-3xl font-bold text-center mb-8">My Blog </h1>
             <div className="">
                 <img src="/src/assets/img/foto/sarah1.jpg" alt="Background" className="img_me"/>
@@ -57,8 +57,8 @@ const BlogOverview: React.FC = () => {
             </p>
 
             </div>
-            <div className="container sectionContainer2 mx-auto px-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="">
+                <div className="sectionContainer4">
                     {blogPosts.map((post) => (
                         <div key={post.id} className="blog-card">
                             <img src={post.image} alt={post.title} className="blog-card-image" />

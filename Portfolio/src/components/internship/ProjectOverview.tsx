@@ -4,7 +4,6 @@ const ProjectOverview: FC = () => {
   return (
       <div className="sectionContainer5">
           <h2>Project Overview</h2>
-          >
 
           <div className="card">
               <img src="./src/assets/img/foto/Project_Beja/lab_Beja.jpg" alt="Logo" className="foto-card"/>

@@ -1,17 +1,26 @@
 import React, { FC } from "react";
-import {FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaLocationArrow} from "react-icons/fa";
+import {FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaLocationArrow, FaMailBulk, FaPhone} from "react-icons/fa";
 
 const Footer: FC = () => {
     return (
         <footer className="footer ">
             <div className="container ">
+                <div className="footer-links">
+
+                    <a href="/" className="text-sm">Home</a>
+                    <a href="/about" className="text-sm">About</a>
+                    <a href="/cv" className="text-sm">Download CV</a>
+                    <a href="/contact" className="text-sm">Contact</a>
+                    <a href="/blogoverview" className="text-sm">Blog</a>
+                </div>
                 <div className="">
                     {/* About Section */}
 
-                    <h4 className=" ">
+                    <h4 className=" text-subtitel2">
                         Passionate about creating visually appealing and user-friendly interfaces, combining creativity
                         with technical expertise.
                     </h4>
+
                 </div>
 
 
@@ -19,34 +28,35 @@ const Footer: FC = () => {
 
                 {/* Social Media Links */}
 
-                <div>
-
-                    <p className="text-sm"> sarah.janssen@gmail.com</p>
-                    <p className="text-sm"> Belgium, Turnhout</p>
-                    <div className="social-icons">
-                        <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank"
-                           rel="noopener noreferrer">
-                            <FaLinkedin size={30}/>
-                        </a>
-                        <a href="https://www.instagram.com/your-instagram-profile" target="_blank"
-                           rel="noopener noreferrer">
-                            <FaInstagram size={30}/>
-                        </a>
-                        <a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer">
-                            <FaGithub size={30}/>
-                        </a>
-                    </div>
-
-                </div>
-
+            </div>
+            <div className="social-icons">
+                <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank"
+                   rel="noopener noreferrer">
+                    <FaLinkedin size={30}/>
+                </a>
+                <a href="https://www.instagram.com/your-instagram-profile" target="_blank"
+                   rel="noopener noreferrer">
+                <FaInstagram size={30}/>
+                </a>
+                <a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer">
+                    <FaGithub size={30}/>
+                </a>
             </div>
 
+            <div className="text-right">
 
+                <p className="text-sm"><FaEnvelope size={20} className="location-icon"/> sarah.janssen@gmail.com</p>
+                <p className="text-sm"><FaLocationArrow size={20} className="location-icon"/> Belgium, Turnhout</p>
+                <p className="text-sm"><FaPhone size={20} className="location-icon"/> +32 476 23 45 67</p>
+
+
+            </div>
+            <img src="/src/assets/img/foto/logo/logoSJ_white.png" alt="Profile" className="logo"/>
             {/* Footer Bottom */}
             <div className="mt-8 text-center text-sm">
                 <p>© 2025 Sarah Janssen. All rights reserved.</p>
             </div>
-            <img src="/src/assets/img/foto/logo/logoSJ_white.png" alt="Profile" className="logo"/>
+
 
         </footer>
     );

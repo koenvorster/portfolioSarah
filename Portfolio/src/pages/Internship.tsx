@@ -2,7 +2,6 @@ import { FC } from "react";
 import HeroSection from "@/components/internship/HeroSection";
 import ProjectOverview from "@/components/internship/ProjectOverview";
 import ProjectImages from "@/components/internship/ProjectImages";
-
 import DownloadSection from "@/components/internship/DowloadSection.tsx";
 import TestingSection from "@/components/internship/TestingSection.tsx";
 

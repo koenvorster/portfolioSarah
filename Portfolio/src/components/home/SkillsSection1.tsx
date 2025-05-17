@@ -28,7 +28,7 @@ const SkillsSection1: React.FC = () => {
                     <h3 className="hero-h2 ">Hard Skills</h3>
                     <ul>
                     {hardSkills.map((skill, index) => (
-                        <li className="skill">
+                        <li className="skill cardSkill">
                         <div key={index} className="skill-item">
                             <i className={`${skill.icon} icon`}></i>
                             {skill.name}
@@ -42,7 +42,7 @@ const SkillsSection1: React.FC = () => {
                     <h3 className="hero-h2 ">Soft Skills</h3>
                     <ul>
                     {softSkills.map((skill, index) => (
-                        <li>
+                        <li className="skill cardSkill">
                         <div key={index} className="skill-item text-right">
                             <i className={`${skill.icon} icon`}></i>
                             {skill.name}

@@ -6,33 +6,13 @@ const ContactSection: React.FC = () => {
             <div className="cards-container">
                 {/* Contact Card */}
                 <div className="cardcontact">
-                    <h2 className="card-title">Connect with Me</h2>
+                    <h2 className="card-title">Hello, I'm Sarah</h2>
                     <img
                         src={"/src/assets/img/foto/sarah1.jpg"}
                         alt="Sarah in a personal setting"
                         className="img_me"
                     />
-                    <div className="social-icons">
-                        <a href="mailto:Sarahjanssen@gmail.com" aria-label="Email Sarah Janssen">
-                            <i className="fas fa-envelope fa-2x"></i>
-                        </a>
-                        <a
-                            href="https://www.instagram.com/yourprofile"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            aria-label="Instagram Profile"
-                        >
-                            <i className="fab fa-instagram fa-2x"></i>
-                        </a>
-                        <a
-                            href="https://www.linkedin.com/in/yourprofile"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            aria-label="LinkedIn Profile"
-                        >
-                            <i className="fab fa-linkedin fa-2x"></i>
-                        </a>
-                    </div>
+
                     <p className="card-text text-left">
                         I am always open to new opportunities and collaborations. Whether you have a question, a project
                         in mind, or just want to say hello, don't hesitate to reach out!
@@ -43,14 +23,24 @@ const ContactSection: React.FC = () => {
 
                 {/* Google Maps */}
                 <div className="cardcontact">
-                    <h2 className="card-text">
-                        You can reach me at:
-                    </h2>
+                    <h2 className="card-title">Connect with Me:</h2>
                     <div className="text-left">
-                    <p><i className="fas fa-envelope "></i> Sarahjanssen1991@gmail.com</p>
-                    <p><i className="fas fa-phone "></i>Given via email</p>
-                    <p className="">Location</p>
-                    <p> <i className="fas fa- "></i>Belgium, Turnhout</p>
+
+                        <p><i className="fab fa-linkedin icon"></i> Linkdin/SarahJanssen</p>
+                        <p><i className="fab fa-github icon"></i> github.com/SarahJanssen</p>
+                        <p><i className="fab fa-instagram icon"></i> instagram.com/SarahJanssen</p>
+                        <p><i className="fas fa-globe icon"></i> www.sarah-janssen.be</p>
+                        <p><i className="fas fa-envelope icon "></i> Sarahjanssen1991@gmail.com</p>
+                    </div>
+
+                </div>
+
+                {/* Contact Information */}
+                <div className="cardcontact">
+                    <h2 className="card-title">Location:</h2>
+                    <div className="text-left">
+                        <p className=""><i className="fas fa-Location "></i>Belgium, Turnhout</p>
+                        <p></p>
                     </div>
                     <iframe
                         title="Google Maps - Turnhout"
@@ -62,9 +52,6 @@ const ContactSection: React.FC = () => {
                         loading="lazy"
                     ></iframe>
                 </div>
-
-                {/* Contact Information */}
-
             </div>
         </div>
     )

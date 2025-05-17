@@ -20,33 +20,31 @@ const ProjectSection: React.FC = () => {
 
   return (
       <div className="sectionContainer1">
-        <div className="px-4 py-5 my-5 text-center">
-          <h1 className="display-5 fw-bold">Watch my work.</h1>
-          <div className="col-lg-6 mx-auto">
+        <div className="">
+          <h1 className="">Watch my work.</h1>
+          <div className=" mx-auto">
             <p className="lead mb-4">Discover my projects!</p>
           </div>
-          <div className="skills-cards-container d-flex flex-wrap justify-content-center gap-3">
+          <div className="skills-cards-container">
             {skills.map((skill) => (
-                <div key={skill.id} className="card bg-white shadow-md rounded-lg p-4">
+                <div key={skill.id} className="cardProject bg-white shadow-md rounded-lg p-4">
                   <a
                       href={skill.link}
                       target="_blank"
-                      rel="noopener noreferrer"
                       className=" button"
                   >
                     <img
                         src={skill.image}
                         alt={skill.title}
-                        className="w-full h-40 object-cover rounded-t-lg"
+                        className="card-img"
                     />
                     <div className="p-4">
-                      <h2 className="">{skill.title}</h2>
-                      <p className="">{skill.description}</p>
+                      <h2 className="projectTitel">{skill.title}</h2>
+                      <p className="card-text">{skill.description}</p>
                     </div>
-
                   </a>
-<button className="btn">
-                    <a href={skill.link} target="_blank" rel="noopener noreferrer">
+                  <button className="btn">
+                    <a href={skill.link} target="_blank" >
                       View Project
                     </a>
                   </button>

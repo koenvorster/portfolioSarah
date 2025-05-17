@@ -4,6 +4,7 @@ import ProjectSection from '@/components/home/ProjectSection.tsx'
 import AboutSection from '@/components/home/AboutSection.tsx'
 import SkillsSection1 from '@/components/home/SkillsSection1.tsx'
 import ContactSection from '@/components/home/ContactSection.tsx'
+import Carouselsection from "@/components/home/Carouselsection.tsx";
 
 
 const Home: FC = () => {
@@ -12,7 +13,9 @@ const Home: FC = () => {
       <Hero/>
       <ProjectSection/>
       <AboutSection/>
+
         <SkillsSection1/>
+        <Carouselsection/>
       <ContactSection/>
     </div>
 

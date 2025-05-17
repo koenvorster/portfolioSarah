@@ -1,0 +1,17 @@
+/* Page-specific styles */
+.blog-template-container {
+    max-width: 100%;
+    margin: auto;
+    padding: 4.5rem;
+    background-image: url('./assets/img/foto/achtergrond/schilderachtergrond3.jpg');
+    background-size: cover;
+    color: #e3ecf3;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 40px;
+}

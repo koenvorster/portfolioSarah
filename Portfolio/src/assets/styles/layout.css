@@ -1,0 +1,20 @@
+/* Layout styles */
+.sectionContainer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #1B3E37;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.heroContainer {
+    position: relative;
+    background-image: url('./assets/hero.jpg');
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
