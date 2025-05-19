@@ -7,11 +7,13 @@
     background-color: #1B3E37;
     flex-wrap: wrap;
     height: 100%;
+    margin-bottom: 10px;
+    padding-bottom: 40px;
 }
 
 .heroContainer {
     position: relative;
-    background-image: url('./assets/hero.jpg');
+    background-image: url('../../assets/hero.jpg');
     background-size: cover;
     height: 60vh;
     display: flex;
@@ -29,4 +31,152 @@
     margin: 20px;
     padding: 20px;
     max-width: 400px;
+}
+/*Sections*/
+.containerfoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.sectionContainer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    background-color: #1B3E37;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.sectionContainer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/img/foto/achtergrond/schilderachtergrond2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 800px;
+    flex-wrap: wrap;
+    gap: 0; /* Space between elements */
+}
+
+.sectionContainer2 h1 {
+
+    width: 100%; /* Full width on small screens */
+    text-align: center; /* Center text on small screens */
+    font-size: 50px; /* Decrease font size */
+    margin: 0; /* Remove margin */
+
+}
+
+.sectionContainer2 .flex-items {
+    flex: 1 1 auto; /* Adjust size based on content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionContainer2 .card_about {
+    flex: 1 1 auto; /* Adjust size based on content */
+
+    /* Space around the card */
+    min-width: 270px; /* Limit the card width */
+
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+    .sectionContainer2 {
+        flex-wrap:wrap; /* All elements in a row */
+
+    }
+    .sectionContainer2 h1 {
+        flex: 1; /* Take equal space in the row */
+        text-align: left; /* Align text to the left */
+        font-size: 85px; /* Increase font size */
+    }
+    .sectionContainer2 .flex-items {
+        flex: 1; /* Take equal space in the row */
+    }
+    .sectionContainer2 .card_about {
+        flex: 1; /* Take equal space in the row */
+        height: 350px;
+
+    }
+}
+
+
+
+.sectionContainer3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+    background-color: #1B3E37;
+    background-image: url('../../assets/img/foto/achtergrond/schilderachtergrond.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    height: 100%;
+
+}
+.sectionContainer4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #1B3E37;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.sectionContainer5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    background-image: url('../../assets/img/foto/achtergrond/schilderachtergrond2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.sectionContainer7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    background-image: url('../../assets/img/foto/achtergrond/schilderachtergrond3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    flex-wrap: wrap;
+    gap: 0; /* Space between elements */
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 1;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
