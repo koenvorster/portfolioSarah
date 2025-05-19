@@ -46,7 +46,7 @@ const ProjectOverview: FC = () => {
               </p>
           </div>
           <div className="card ">
-              <img src="./src/assets/img/foto/Project_Beja/dashboardinternship.png" alt="Logo" className="foto-card"/>
+              <img src="./src/assets/img/foto/Project_Beja/project_internship.jpg" alt="Logo" className="foto-card"/>
               <p className="text-lg leading-relaxed text-[#d1e4d0] mb-4">
                   The internship provided me with valuable experience in project management, teamwork, and
                   problem-solving. I learned how to effectively communicate in a international organisation.

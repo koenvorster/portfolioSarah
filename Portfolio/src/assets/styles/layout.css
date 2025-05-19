@@ -18,3 +18,15 @@
     align-items: center;
     justify-content: center;
 }
+
+.testing-item{
+    background-color: #2d2d2d;
+    color: white;
+    border-radius: 16px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+    margin: 20px;
+    padding: 20px;
+    max-width: 400px;
+}

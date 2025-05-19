@@ -3,7 +3,7 @@
       "id": 1,
       "title": "Internship Beja",
       "description": "This project involved designing and developing a user-friendly interface, integrating  real-time data. The project was completed within a tight deadline and required effective communication and collaboration with the team.",
-      "image": "./src/assets/img/foto/cardsProjecten/ProjectBeja.jpg",
+      "image": "./src/assets/img/foto/cardsProjecten/ProjectBeja2.jpg",
 
       "link": "/Internship",
       "category": "School Projects"
@@ -69,7 +69,7 @@
       "id": 5,
       "title": "Robocup and AI talk",
       "description": "Meet whith Lieve Scheire and Learn about robotica. ",
-      "image": "./src/assets/img/foto/AI_talk.jpg",
+      "image": "./src/assets/img/foto/cardsProjecten/robocup2024.jpg",
       "link": "https://example.com/project5",
       "category": "Extra"
     }

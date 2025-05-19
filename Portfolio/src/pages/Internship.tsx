@@ -4,6 +4,7 @@ import ProjectOverview from "@/components/internship/ProjectOverview";
 import ProjectImages from "@/components/internship/ProjectImages";
 import DownloadSection from "@/components/internship/DowloadSection.tsx";
 import TestingSection from "@/components/internship/TestingSection.tsx";
+import VideoSection from "@/components/internship/VideoSection.tsx";
 
 const Internship: FC = () => {
   return (
@@ -12,6 +13,7 @@ const Internship: FC = () => {
       <HeroSection />
       <ProjectOverview />
         <TestingSection />
+        <VideoSection />
       <ProjectImages />
         <DownloadSection />
     </section>
