@@ -15,7 +15,7 @@ import {
     FaSyncAlt,
     FaEye, FaPlane, FaCamera, FaAtlassian, FaBootstrap
 } from "react-icons/fa";
-import { SiPython, SiExpress, SiWordpress, SiCypress, SiPlayerdotme } from "react-icons/si";
+import { SiPython, SiWordpress } from "react-icons/si";
 import {FaGauge} from "react-icons/fa6";
 
 // Reusable component for rendering skills list
@@ -86,7 +86,7 @@ const Skills: FC = () => {
 <div className="card2">
             {/* Soft Skills */}
     <h3 className="skills-title">Soft Skills</h3>
-            <SkillsList
+  <SkillsList title="Soft Skills"
 
                 items={[
                     <SkillItem icon={<FaDrawPolygon className="icon" />} label="Creativity" />,

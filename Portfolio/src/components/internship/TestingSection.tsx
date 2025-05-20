@@ -9,7 +9,7 @@ const TestingSection: React.FC = () => {
               During the Beja project, we focused on ensuring the quality and reliability of the application through
               rigorous testing efforts. Below are the key testing activities performed:
           </p>
-          <img src={"./src/assets/img/foto/Project_Beja/Testing.jpg"} alt="Testing" className="testing-image" />
+          <img src="/assets/img/foto/Project_Beja/Testing.jpg" alt="Testing" className="testing-image" />
           <ul className="testing-list">
               <li className="testing-item">
                   **End-to-End Testing with Cypress**: Simulated real-world user interactions to validate the entire

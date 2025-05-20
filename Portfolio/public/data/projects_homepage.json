@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Internship in Beja",
+    "description": "  This project involved designing and developing a user-friendly interface, integrating  real-time data, and ensuring the app met the needs of the stakeholders.",
+    "image": "/assets/img/foto/Project_Beja/projectBejacard2.jpg",
+    "link": "/internship"
+  },
+  {
+    "id": 2,
+    "title": "Travelblog",
+    "description": "The Travelblog application is a school project developed during my 2de year at Thomas More. It was created to enhance my skills in web and mobile development, focusing on creating a platform for users to share their travel experiences and insights.",
+    "image": "/assets/img/foto/Travelapp/travel_App.jpg",
+    "link": "/projecten/Travelblog"
+  },
+  {
+    "id": 3,
+    "title": "Portfolio",
+    "description": "  Several pages were created with their own purpose. There was a homepage and a contact page, as well as a page to keep track of events.",
+    "image": "/assets/img/foto/ProjectPortfolio1Sarah/portfolio_Sarah.jpg",
+    "link": "/projecten/Portfoliosarah"
+  }
+  ]

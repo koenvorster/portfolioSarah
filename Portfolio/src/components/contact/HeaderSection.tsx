@@ -1,13 +1,12 @@
 import React from "react";
 
-
 const HeaderSection: React.FC = () => {
   return (
     <div className="card  mb-12">
       <h1>Contact Me</h1>
       <div className="containerfoto">
         <img
-          src="/src/assets/img/foto/Sarah1.jpg"
+          src="/assets/img/foto/sarah1.jpg"
           alt="About me"
           className="foto_me"
         />

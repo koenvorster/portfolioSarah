@@ -8,14 +8,14 @@ const Hero: FC = () => {
     <div>
       <div className="hero">
         <div className="text">
-          <p className="text__short">Passionate about IT</p>
           <h1 className="text__title">Sarah Janssen</h1>
-          <p className="text__description action-text">Take some time to view my work</p>
+          <p className="text__short">Passionate about creating visually appealing and user-friendly interfaces,
+            combining creativity with technical expertise.</p>
           <Link to={'Projects'} className="text__button">Projects</Link>
         </div>
 
         <div className="grid__container">
-          <div className="grid__item one"></div>
+        <div className="grid__item one"></div>
           <div className="grid__item two"></div>
           <div className="grid__item three"></div>
           <div className="grid__item four"></div>

@@ -71,7 +71,7 @@ const InterestSection: FC = () => {
                     </li>
                     <li className="flex items-center">
                         <FaPlane size={40} className="mr-2 icon"/>
-                        Hacathon 2024
+                        Hackathon 2025
                     </li>
                 </ul>
             </section>

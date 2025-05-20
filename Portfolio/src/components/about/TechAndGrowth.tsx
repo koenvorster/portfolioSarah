@@ -1,5 +1,6 @@
 import { FC } from "react";
 
+
 const TechAndGrowth: FC = () => {
   return (
       <div className="sectionContainer1">
@@ -19,7 +20,7 @@ const TechAndGrowth: FC = () => {
           </div>
           <div>
               <img
-                  src="./src/assets/img/foto/Project_Beja/sarahMetLaptop.jpg"
+                  src="/assets/img/foto/Project_Beja/sarahMetLaptop.jpg"
                   alt="Tech setup or programming environment"
                   className="foto_laptop "
               />

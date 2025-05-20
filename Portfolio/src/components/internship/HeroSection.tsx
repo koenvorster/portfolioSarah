@@ -1,4 +1,5 @@
 import { FC } from "react";
+import {Link} from 'react-router-dom'
 
 const HeroSection: FC = () => {
   return (
@@ -6,7 +7,7 @@ const HeroSection: FC = () => {
           <div className="internship-header ">
               <div className="i">
                   <video
-                      src="./src/assets/img/Videoproject_portugal.mp4"
+                      src="/assets/img/Videoproject_portugal.mp4"
                       className="internship-video"
                       controls
                   />
@@ -25,14 +26,8 @@ const HeroSection: FC = () => {
                   my skills in a real-world setting and contribute to a meaningful cause.
               </p>
               <div className="containerfoto">
-              <button
-                  href="https://example.com/blog"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn text-blue-500 hover:underline"
-              >
-                  Read More
-              </button>
+
+                <Link to={'Blog_internship'} className="btn text-blue-500 hover:underline">Read more</Link>
               </div>
 
           </div>

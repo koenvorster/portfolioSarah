@@ -13,7 +13,7 @@
 
 .heroContainer {
     position: relative;
-    background-image: url('../../assets/hero.jpg');
+    background-image: url('../../../public/assets/img/hero.jpg');
     background-size: cover;
     height: 60vh;
     display: flex;
@@ -55,7 +55,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../../assets/img/foto/achtergrond/schilderachtergrond2.jpg');
+    background-image: url('../../../public/assets/img/foto/Achtergrond/schilderachtergrond2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -123,7 +123,7 @@
     gap: 20px;
     padding: 40px;
     background-color: #1B3E37;
-    background-image: url('../../assets/img/foto/achtergrond/schilderachtergrond.jpg');
+    background-image: url('../../../public/assets/img/foto/Achtergrond/schilderachtergrond.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -149,7 +149,7 @@
     align-items: center;
     gap: 20px;
     padding: 40px;
-    background-image: url('../../assets/img/foto/achtergrond/schilderachtergrond2.jpg');
+    background-image: url('../../../public/assets/img/foto/Achtergrond/schilderachtergrond2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -161,7 +161,7 @@
     justify-content: center;
     align-items: center;
     padding: 2px;
-    background-image: url('../../assets/img/foto/achtergrond/schilderachtergrond3.jpg');
+    background-image: url('../../../public/assets/img/foto/Achtergrond/schilderachtergrond3.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

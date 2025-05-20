@@ -2,6 +2,7 @@ import { FC, useState } from "react";
 import { Link } from "react-router-dom";
 import "@/main.css";
 
+
 const Navbar: FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -21,7 +22,7 @@ const Navbar: FC = () => {
           <div className="logo">
             <Link to="/" className="nav-logo">
               <img
-                src="src/assets/img/foto/logo/LogoSJ_white.png"
+                src= "/assets/img/foto/logo/LogoSJ_white.png"
                 alt="Logo"
                 className="logo-image"
               />

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Route, Routes} from 'react-router-dom'
+import { Route, Routes} from 'react-router-dom'
 import Home from '@/pages/Home.tsx'
 import Projects from '@/pages/Projects.tsx'
 import Skills from '@/pages/Skills.tsx'
@@ -10,7 +10,7 @@ import PortfolioSarah from "@/pages/projecten/PortfolioSarah.tsx";
 import ProjectTesting from "@/pages/projecten/ProjectTesting.tsx";
 import Travelblog from "@/pages/projecten/Travelblog.tsx";
 import Contact from "@/pages/Contact.tsx";
-import Cv from "@/pages/CV.tsx";
+import Cv from "@/pages/Cv.tsx";
 import BlogOverview from "@/pages/BlogOverview.tsx";
 import Blog_robocup from "@/pages/Blog_robocup.tsx";
 import Blog_hackathon from "@/pages/Blog_hackathon.tsx";
@@ -41,6 +41,7 @@ const App: React.FC = () => {
         <Route path='/blog/Blog_hackathon' element={<Blog_hackathon />} />
 
       </Routes>
+
     </>
   )
 }

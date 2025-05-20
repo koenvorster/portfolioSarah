@@ -1,5 +1,6 @@
-import React, { FC } from "react";
-import {FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaLocationArrow, FaMailBulk, FaPhone} from "react-icons/fa";
+import  { FC } from "react";
+import {FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaLocationArrow, FaPhone} from "react-icons/fa";
+
 
 const Footer: FC = () => {
     return (
@@ -51,7 +52,7 @@ const Footer: FC = () => {
 
 
             </div>
-            <img src="/src/assets/img/foto/logo/logoSJ_white.png" alt="Profile" className="logo"/>
+            <img src="/assets/img/foto/logo/LogoSJ_white.png" alt="Profile" className="logo"/>
             {/* Footer Bottom */}
             <div className="mt-8 text-center text-sm">
                 <p>© 2025 Sarah Janssen. All rights reserved.</p>

@@ -3,6 +3,7 @@ import Education from "../components/cv/Education";
 import WorkExperience from "../components/cv/WorkExperience";
 import Skills from "../components/cv/Skills";
 
+
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import InterestSection from "@/components/cv/InterestSection.tsx";
 const Cv: FC = () => {
@@ -11,7 +12,7 @@ const Cv: FC = () => {
           <div className="sectionContainer5">
               <div className="card6">
                   <div className="containerfoto">
-                  <img src="/src/assets/img/foto/sarah1.jpg" alt="Profile" className="img_me2"/>
+                  <img src="/assets/img/foto/sarah1.jpg" alt="Profile" className="img_me2"/>
                     </div>
                   <div className="social-icons">
                       <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank"

@@ -8,7 +8,7 @@ const AboutHeader: FC = () => {
           </h1>
 
 
-              <img src="/src/assets/img/foto/Project_Beja/sarahMetLaptop.jpg" alt="About me"
+              <img src="/assets/img/foto/Project_Beja/sarahMetLaptop.jpg" alt="About me"
                    className="aboutImage2 "/>
 
           <div>

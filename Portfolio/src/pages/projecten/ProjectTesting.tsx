@@ -1,7 +1,6 @@
 import { FC } from "react";
 import "@/main.css";
 import HeroSection from '@/components/internship/HeroSection.tsx'
-import ContactSection from "@/components/home/ContactSection.tsx";
 
 const ProjectTesting: FC = () => {
     return (
@@ -10,7 +9,7 @@ const ProjectTesting: FC = () => {
 
             <div className="internship-content">
                 <img
-                    src="./src/assets/img/foto/projectBeja2.jpg"
+                    src="@/assets/img/foto/Project_Beja/Beja.jpg"
                     alt="Internship Project"
                     className="internship-image"
                 />
@@ -63,7 +62,7 @@ const ProjectTesting: FC = () => {
 
                 <div className="card flex">
                     <img
-                        src="./src/assets/img/foto/projectBeja2.jpg"
+                        src="@/assets/img/foto/projectBeja2.jpg"
                         alt="Internship Project"
                         className="internship-image"
                     />

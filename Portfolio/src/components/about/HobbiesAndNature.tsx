@@ -1,5 +1,6 @@
 import { FC } from "react";
 
+
 const HobbiesAndNature: FC = () => {
   return (
       <div className="sectionContainer7">
@@ -13,7 +14,7 @@ const HobbiesAndNature: FC = () => {
                   <h3 className=" ">Hobbies & Nature</h3>
                   <div className="containerfoto">
                       <img
-                          src="./src/assets/img/foto/planten.png"
+                          src="/assets/img/foto/planten.png"
                           alt="Houseplants or hobby"
                           className=" foto_planten "
                       />

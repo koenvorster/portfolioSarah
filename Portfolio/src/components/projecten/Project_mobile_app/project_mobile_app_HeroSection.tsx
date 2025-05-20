@@ -1,4 +1,5 @@
 import {FC} from 'react'
+import {Link} from 'react-router-dom'
 
 
 
@@ -10,7 +11,7 @@ const Project_mobile_app_HeroSection: FC = () => {
                 <div className="col-lg-6 mx-auto">
                     <p className="lead mb-4">Create a mobile app for a Travel agency.</p>
                     <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                        <button type="button" className="btn btn-lg px-4 gap-3">Read more</button>
+                        <Link to={'Project_mobile_app'} className="btn btn-lg px-4 gap-3">Read more</Link>
                     </div>
                 </div>
             </div>

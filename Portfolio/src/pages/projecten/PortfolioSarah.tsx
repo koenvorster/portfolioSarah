@@ -1,8 +1,6 @@
 import React from "react";
-import Image from "next/image";
 import {FaReact} from "react-icons/fa";
 import {SiHtml5, SiNextdotjs, SiTailwindcss, SiTypescript} from "react-icons/si";
-
 
 
 const PortfolioSarah: React.FC = () => {
@@ -18,7 +16,7 @@ const PortfolioSarah: React.FC = () => {
             <section className="sectionContainer1">
                 <div className="">
                     <h2>🌐 Project Overview</h2>
-                    <img src="../src/assets/img/foto/ProjectPortfolio1Sarah/portfoliointro.png" alt="Background"
+                    <img src="/assets/img/foto/ProjectPortfolio1Sarah/portfoliointro.png" alt="Background"
                          className=""/>
 
                     <p className="card_about text-lg leading-relaxed text-[#d1e4d0] mb-4">
@@ -61,15 +59,15 @@ const PortfolioSarah: React.FC = () => {
                 <ul className={""}>
 
                     <li className="card8">Carousel with IT icons and visuals <img
-                        src="../src/assets/img/foto/ProjectPortfolio1Sarah/carouselportfolio.jpg" alt=""
-                        className="fotoportfolio"/></li>
+                      src="/assets/img/foto/ProjectPortfolio1Sarah/carouselportfolio.jpg" alt=""
+                      className="fotoportfolio"/></li>
 
                     <li className="card8">Contact form linked to email
-                        <img src="../src/assets/img/foto/ProjectPortfolio1Sarah/contactportfolio.jpg" alt=""
+                        <img src="/assets/img/foto/ProjectPortfolio1Sarah/contactportfolio.jpg" alt=""
                              className="fotoportfolio"/></li>
 
                     <li className="card8">Responsive design for mobile and tablet <video
-                        src="../src/assets/img/portfoliofilmpjegsm.mp4"
+                        src="/assets/img/portfoliofilmpjegsm.mp4"
                         className="videogsm"></video></li>
 
                 </ul>
@@ -86,12 +84,12 @@ const PortfolioSarah: React.FC = () => {
                     </p>
 
                 </div>
-                <img src="../src/assets/img/foto/sarah1.jpg" alt="" className="img_me"/>
+                <img src="/assets/img/foto/sarah1.jpg" alt="" className="img_me"/>
             </section>
 
             <section className="sectionContainer1">
                 <h2>📌 Goals & Outcome</h2>
-                <img src="../src/assets/img/foto/ProjectPortfolio1Sarah/portfoliointro.png" alt="Background"/>
+                <img src= "/assets/img/portfolio_grootscherm.mp4" alt="Background"/>
 
                 <p className="card_mynameis text-lg leading-relaxed text-[#d1e4d0] mb-4">
                     My goal was to create a portfolio that reflects my personality and skills, while also
@@ -116,11 +114,10 @@ const PortfolioSarah: React.FC = () => {
 
             <section className="sectionContainer4">
                 <h2>🚀 Live Demo</h2>
-                <video src="../src/assets/img/portfoliofilmpjegsm.mp4"
-                       className="videogsm"
+                <video src="/assets/img/portfoliofilmpjegsm.mp4"
                        className="videogsm"
                        controls></video>
-                <video src="../src/assets/img/portfolio_grootscherm.mp4"
+                <video src="/assets/img/portfolio_grootscherm.mp4"
                        className="videodemo"
                        controls></video>
                 <div className="card_about">

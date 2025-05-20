@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
+import {Link} from 'react-router-dom'
 
 interface Skill {
   id: number;
   title: string;
   description: string;
   image: string;
+  link?: string;
 }
 
 const ProjectSection: React.FC = () => {
@@ -12,7 +14,7 @@ const ProjectSection: React.FC = () => {
 
   useEffect(() => {
     // Fetch the data from the JSON file
-    fetch("/src/data/projects_homepage.json")
+    fetch("/data/projects_homepage.json")
         .then((response) => response.json())
         .then((data) => setSkills(data))
         .catch((error) => console.error("Error loading skills:", error));
@@ -28,11 +30,8 @@ const ProjectSection: React.FC = () => {
           <div className="skills-cards-container">
             {skills.map((skill) => (
                 <div key={skill.id} className="cardProject bg-white shadow-md rounded-lg p-4">
-                  <a
-                      href={skill.link}
-                      target="_blank"
-                      className=" button"
-                  >
+                  <Link to={skill.link || "#"} className="button">
+
                     <img
                         src={skill.image}
                         alt={skill.title}
@@ -42,12 +41,11 @@ const ProjectSection: React.FC = () => {
                       <h2 className="projectTitel">{skill.title}</h2>
                       <p className="card-text">{skill.description}</p>
                     </div>
-                  </a>
-                  <button className="btn">
-                    <a href={skill.link} target="_blank" >
+                  </Link>
+                    <Link to={skill.link || "#"} className="btn">
                       View Project
-                    </a>
-                  </button>
+                    </Link>
+
                 </div>
             ))}
           </div>

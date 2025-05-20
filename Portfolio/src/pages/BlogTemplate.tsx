@@ -1,5 +1,6 @@
 import React from "react";
 
+
 interface BlogTemplateProps {
   title: string;
   image: string;
@@ -21,7 +22,7 @@ const BlogTemplate: React.FC<BlogTemplateProps> = ({ title, image, content, auth
             <article className="">
                 <p className="text-right">{content}</p>
 
-                <img src="/src/assets/img/foto/sarah1.jpg" alt="Background" className="img_me"/>
+                <img src="/assets/img/foto/sarah1.jpg" alt="Background" className="img_me"/>
                 <p className="blog-meta">
 
                     By <span className="blog-author">{author}</span> on <span className="blog-date">{date}</span>

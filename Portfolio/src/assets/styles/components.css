@@ -23,7 +23,7 @@
 /*navbar*/
 /* Navigatiebalk */
 .navbar {
-    background-image: url('/src/assets/navbar.jpg');
+    background-image: url("../img/navbar.jpg");
     padding: 0;
     position: sticky;
     z-index: 1000;

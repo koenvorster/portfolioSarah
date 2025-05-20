@@ -17,7 +17,7 @@ const Projects: FC = () => {
 
   useEffect(() => {
     // Fetch the project data from the JSON file
-    fetch("/src/data/projects.json")
+    fetch("/data/projects.json")
       .then((response) => response.json())
       .then((data) => {
         setProjects(data);

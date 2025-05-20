@@ -3,7 +3,7 @@
       "id": 1,
       "title": "Internship Beja",
       "description": "This project involved designing and developing a user-friendly interface, integrating  real-time data. The project was completed within a tight deadline and required effective communication and collaboration with the team.",
-      "image": "/img/foto/cardsProjecten/ProjectBeja2.jpg",
+      "image": "/assets/img/foto/cardsProjecten/projectBeja2.jpg",
 
       "link": "/Internship",
       "category": "School Projects"
@@ -13,7 +13,7 @@
       "title": "Travelblog",
       "description": "This project involved creating a travel blog website with a focus on user experience and responsive design. The website features a clean layout, easy navigation, and a blog section for sharing travel experiences.",
 
-      "image": "/img/foto/cardsProjecten/Travelblog.png",
+      "image": "/assets/img/foto/cardsProjecten/Travelblog.png",
       "link": "/projecten/Travelblog",
       "category": "School Projects"
     },
@@ -21,7 +21,7 @@
       "id": 3,
       "title": "Portfolio",
       "description": "This project involved creating a portfolio website to showcase my work and skills. The website features a clean and modern design, with sections for projects, skills, and contact information.",
-      "image": "/img/foto/portfoliocard.jpg",
+      "image": "/assets/img/foto/portfoliocard.jpg",
       "link": "projecten/Portfoliosarah",
       "category": "School Projects"
     },
@@ -29,7 +29,7 @@
       "id": 1,
       "title": "Plant.js",
       "description": "This project involved creating a website for a plant shop. The website features a clean and modern design, with sections for products, services, and contact information.",
-      "image": "/img/foto/cardsProjecten/planten1.jpg",
+      "image": "/assets/img/foto/cardsProjecten/planten1.jpg",
       "link": "https://example.com/project1",
       "category": "Create & Design"
     },
@@ -37,7 +37,7 @@
       "id": 2,
       "title": "Design Project",
       "description": "Focus on simplicity and elegance. Use of negative space and clean lines. Incorporating natural elements.  ",
-      "image": "/img/foto/cardsProjecten/designhouse.jpg",
+      "image": "/assets/img/foto/cardsProjecten/designhouse.jpg",
       "link": "https://example.com/project2",
       "category": "Create & Design"
     },
@@ -45,7 +45,7 @@
     "id": 3,
     "title": "Photography",
     "description": "Capturing moments and emotions. Exploring different photography styles. Post-processing techniques. ",
-    "image": "/img/foto/cardsProjecten/fotowater.jpg",
+    "image": "/assets/img/foto/cardsProjecten/fotowater.jpg",
     "link": "https://example.com/project2",
     "category": "Create & Design"
   },
@@ -53,7 +53,7 @@
       "id": 3,
       "title": "Hackathon",
       "description": "Hackathon event. Teamwork and collaboration. Problem-solving skills.",
-      "image":  "/img/foto/cardsProjecten/eveningtalks.jpg",
+      "image":  "/assets/img/foto/cardsProjecten/eveningtalks.jpg",
       "link": "https://example.com/project3",
       "category": "Extra"
     },
@@ -61,7 +61,7 @@
       "id": 4,
       "title": "Hackademy",
       "description": "Talks and workshops. Networking opportunities. Learning from industry experts.",
-      "image": "/img/foto/cardsProjecten/eveningtalks.jpg",
+      "image": "/assets/img/foto/cardsProjecten/eveningtalks.jpg",
       "link": "https://example.com/project4",
       "category": "Extra"
     },
@@ -69,7 +69,7 @@
       "id": 5,
       "title": "Robocup and AI talk",
       "description": "Meet whith Lieve Scheire and Learn about robotica. ",
-      "image": "/img/foto/cardsProjecten/robocup2024.jpg",
+      "image": "/assets/img/foto/cardsProjecten/robocup2024.jpg",
       "link": "https://example.com/project5",
       "category": "Extra"
     }

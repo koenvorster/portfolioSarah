@@ -1,39 +1,33 @@
-import React from "react";
+
         import Slider from "react-slick";
         import { FaReact, FaPython, FaHtml5, FaCss3Alt, FaJs } from "react-icons/fa";
 
-        // Import images
-        import BackgroundNatuur from "@/assets/img/foto/Achtergrond/achtergrondNatuur.jpg";
-        import BackgroundWolken from "@/assets/img/foto/Achtergrond/achtergrondwolken.jpg";
-        import BackgroundCloud from "@/assets/img/foto/Achtergrond/schilderachtergrond.jpg";
-        import BackgroundAI from "@/assets/img/foto/Achtergrond/achtergrondkasteel.jpg";
-        import BackgroundPython from "@/assets/img/foto/Achtergrond/schilderachtergrond3.jpg";
 
         const slides = [
             {
                 title: "Frontend Magic",
                 icon: <FaReact size={80} color="#61DBFB" />,
-                backgroundImage: BackgroundNatuur,
+                backgroundImage: "/assets/img/foto/Achtergrond/achtergrondNatuur.jpg",
             },
             {
                 title: "Clean Markup",
                 icon: <FaHtml5 size={80} color="#e34c26" />,
-                backgroundImage: BackgroundWolken,
+                backgroundImage: "/assets/img/foto/Achtergrond/achtergrondwolken.jpg",
             },
             {
                 title: "Styling Wizardry",
                 icon: <FaCss3Alt size={80} color="#264de4" />,
-                backgroundImage: BackgroundCloud,
+                backgroundImage: "/assets/img/foto/Achtergrond/schilderachtergrond.jpg",
             },
             {
                 title: "Code with JavaScript",
                 icon: <FaJs size={80} color="#f0db4f" />,
-                backgroundImage: BackgroundAI,
+                backgroundImage: "/assets/img/foto/Achtergrond/achtergrondkasteel.jpg",
             },
             {
                 title: "Backend with Python",
                 icon: <FaPython size={80} color="#3776ab" />,
-                backgroundImage: BackgroundPython,
+                backgroundImage: "/assets/img/foto/Achtergrond/schilderachtergrond3.jpg",
             },
         ];
 

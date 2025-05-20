@@ -2,7 +2,8 @@ import React from "react";
 import HeaderSection from "@/components/contact/HeaderSection";
 import ProfessionalBackground from "@/components/contact/ProfessionalBackground";
 import SocialMediaLinks from "@/components/contact/SocialMediaLinks";
-import ContactInfo from "@/components/contact/ContactInfo";
+import ContactInfo from '@/components/contact/Contactinfo.tsx'
+
 
 
 const Contact: React.FC = () => {

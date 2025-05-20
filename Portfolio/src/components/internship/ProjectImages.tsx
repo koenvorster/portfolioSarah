@@ -1,5 +1,6 @@
 import { FC } from "react";
 
+
 const ProjectImages: FC = () => {
   return (
       <div className="sectionContainer1">
@@ -16,28 +17,28 @@ const ProjectImages: FC = () => {
           {/* Add more images as needed */}
           <div className="card3">
               <img
-                  src="./src/assets/img/foto/Project_Beja/dashboardInternship.png"
+                  src="/assets/img/foto/Project_Beja/dashboardInternship.png"
                   alt="Internship Project"
                   className="internship-image"
               />
           </div>
           <div className="card2">
               <img
-                  src="./src/assets/img/foto/Project_Beja/projectBeja2.jpg"
+                  src="/assets/img/foto/Project_Beja/projectBeja2.jpg"
                   alt="Internship Project"
                   className="internship-image"
               />
           </div>
           <div className="card2">
               <img
-                  src="./src/assets/img/foto/Project_Beja/grafanadashboard.jpg"
+                  src="/assets/img/foto/Project_Beja/grafanadashboard.jpg"
                   alt="Internship Project"
                   className="internship-image"
               />
           </div>
           <div className="card2">
               <img
-                  src="./src/assets/img/foto/Project_Beja/scherm_project.jpg"
+                  src="/assets/img/foto/Project_Beja/scherm_project.jpg"
                   alt="Internship Project"
                   className="internship-image"
               />
@@ -49,7 +50,7 @@ const ProjectImages: FC = () => {
           </p>
           <div className="card3">
               <img
-                  src="./src/assets/img/foto/Project_Beja/dashboardmeters.png"
+                  src="/assets/img/foto/Project_Beja/dashboardmeters.png"
                   alt="Internship Project"
                   className="internship-image"
               />
@@ -60,14 +61,14 @@ const ProjectImages: FC = () => {
           </p>
           <div className="card3">
               <img
-                  src="./src/assets/img/foto/Project_Beja/lab_Beja.jpg"
+                  src="/assets/img/foto/Project_Beja/lab_Beja.jpg"
                   alt="Internship Project"
                   className="internship-image"
               />
           </div>
           <div className="card">
               <img
-                  src="./src/assets/img/foto/Project_Beja/sarahMetLaptop.jpg"
+                  src="/assets/img/foto/Project_Beja/sarahMetLaptop.jpg"
                   alt="Internship Project"
                   className="internship-image"
               />

@@ -1,4 +1,6 @@
 import { FC } from "react";
+import {Link} from 'react-router-dom'
+
 
 const WhoIAm: FC = () => {
   return (
@@ -7,7 +9,7 @@ const WhoIAm: FC = () => {
 
           <div className="card_mynameis">
               <div className="containerfoto">
-              <img src={"/src/assets/img/foto/sarah1.jpg"} alt="Sarah in a personal setting"
+              <img src="/assets/img/foto/sarah1.jpg" alt="Sarah in a personal setting"
                    className="img_me2"/>
               </div>
               <p className="text-lg leading-relaxed text-[#d1e4d0] mb-4">
@@ -27,7 +29,7 @@ const WhoIAm: FC = () => {
                   connect!
               </p>
               <div className="containerfoto">
-              <button className="btn"><a href="/cv"> watch my resume</a></button>
+                  <Link to={'Cv'} className="btn">Watch my resume</Link>
               </div>
           </div>
       </div>

@@ -8,7 +8,7 @@ const ContactSection: React.FC = () => {
                 <div className="cardcontact">
                     <h2 className="card-title">Hello, I'm Sarah</h2>
                     <img
-                        src={"/src/assets/img/foto/sarah1.jpg"}
+                        src="/assets/img/foto/sarah1.jpg"
                         alt="Sarah in a personal setting"
                         className="img_me"
                     />

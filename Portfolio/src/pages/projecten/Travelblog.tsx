@@ -1,5 +1,6 @@
 import { FC } from "react";
 
+
 const Travelblog: FC = () => {
     return (
         <div className="travelblog-container">
@@ -9,7 +10,7 @@ const Travelblog: FC = () => {
                 <div className="divider"></div>
 
             </section>
-<img src="/src/assets/img/foto/Travelapp/travel_App.jpg" alt="Travelblog" className="travelblog-image" />
+<img src="/assets/img/foto/Travelapp/travel_App.jpg" alt="Travelblog" className="travelblog-image" />
                 <div className="sectionContainer7">
                 <p className="cardTravelblog">
                     The Travelblog application is a school project developed during my 2de year at
