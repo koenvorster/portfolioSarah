@@ -10,7 +10,7 @@ import '@/assets/styles/pages.css';
 import '@/assets/styles/utilities.css';
 import '@/assets/styles/blog.css';
 
-import {HashRouter} from 'react-router-dom'
+import {BrowserRouter} from 'react-router-dom'
 import Navbar from '@/components/Navbar.tsx'
 import Routing from '@/navigation/Routing.tsx'
 import Footer from '@/components/ui/Footer.tsx'
@@ -21,10 +21,10 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <StrictMode>
-    <HashRouter>
+    <BrowserRouter>
       <Navbar />
         <Routing/>
-    </HashRouter>
     <Footer />
+    </BrowserRouter>
   </StrictMode>
 )

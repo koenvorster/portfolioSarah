@@ -1,5 +1,6 @@
 import  { FC } from "react";
 import {FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaLocationArrow, FaPhone} from "react-icons/fa";
+import {Link} from 'react-router-dom'
 
 
 const Footer: FC = () => {
@@ -8,11 +9,11 @@ const Footer: FC = () => {
             <div className="container ">
                 <div className="footer-links">
 
-                    <a href="/" className="text-sm">Home</a>
-                    <a href="/about" className="text-sm">About</a>
-                    <a href="/cv" className="text-sm">Download CV</a>
-                    <a href="/contact" className="text-sm">Contact</a>
-                    <a href="/blogoverview" className="text-sm">Blog</a>
+                    <Link to={"/"} className="text-sm">Home</Link>
+                    <Link to={"About"} className="text-sm">About</Link>
+                    <Link to={"Cv"} className="text-sm">Download CV</Link>
+                    <Link to={"Contact"} className="text-sm">Contact</Link>
+                    <Link to={"BlogOverview"} className="text-sm">Blog</Link>
                 </div>
                 <div className="">
                     {/* About Section */}
