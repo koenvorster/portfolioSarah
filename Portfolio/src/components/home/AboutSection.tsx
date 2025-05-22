@@ -18,7 +18,7 @@ const AboutSection: FC = () => {
 
         </div>
 <div className="card5">
-  <Link to={'About'} className="card-button">Read more</Link>
+  <Link to={'/About'} className="card-button">Read more</Link>
 
 </div>
 

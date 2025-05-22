@@ -29,7 +29,7 @@ const WhoIAm: FC = () => {
                   connect!
               </p>
               <div className="containerfoto">
-                  <Link to={'Cv'} className="btn">Watch my resume</Link>
+                  <Link to={'/Cv'} className="btn">Watch my resume</Link>
               </div>
           </div>
       </div>

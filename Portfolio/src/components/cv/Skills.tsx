@@ -44,7 +44,7 @@ const Skills: FC = () => {
         <section className="skills sectionContainer1">
             <h2 className="">My Skills</h2>
 <div className="card2">
-    <h3 className="skills-title">Hard Skills</h3>
+    <h2 className="skills-title">Hard skills</h2>
             {/* Programming Languages */}
             <SkillsList
                 title="programming language:"
@@ -85,8 +85,8 @@ const Skills: FC = () => {
 </div>
 <div className="card2">
             {/* Soft Skills */}
-    <h3 className="skills-title">Soft Skills</h3>
-  <SkillsList title="Soft Skills"
+<h2 className="marginbotom">Soft skills</h2>
+  <SkillsList title="" className="title"
 
                 items={[
                     <SkillItem icon={<FaDrawPolygon className="icon" />} label="Creativity" />,
