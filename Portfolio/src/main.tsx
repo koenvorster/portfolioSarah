@@ -13,6 +13,14 @@ import '@/assets/styles/cards.css';
 import '@/assets/styles/skick-custom.css';
 import '@/assets/styles/about.css'
 import '@/assets/styles/timeline.css'
+import '@/assets/styles/Skills.css';
+import '@/assets/styles/footer.css';
+import '@/assets/styles/interest.css';
+import '@/assets/styles/contact.css';
+import '@/assets/styles/foto.css';
+import '@/assets/styles/internship.css';
+
+
 import {BrowserRouter} from 'react-router-dom'
 import Navbar from '@/components/Navbar.tsx'
 import Routing from '@/navigation/Routing.tsx'

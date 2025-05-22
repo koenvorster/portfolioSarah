@@ -11,7 +11,6 @@ const Contact: React.FC = () => {
     <div className="contact-page py-12">
       <div className="sectionContainer2 mx-auto px-6">
         <HeaderSection />
-
           <SocialMediaLinks />
         <ContactInfo />
       </div>

@@ -62,8 +62,10 @@ const Projects: FC = () => {
 
       {/* Project Cards */}
         <div className="sectionContainer1">
-            <FaLaptop size={60} color="#cc5c2d"  className="logo3"/>
+
             <div className="card7">
+                <div className="buttoncontainer">   <FaLaptop size={40} color="#cc5c2d"  className="logo3"/></div>
+
                 <p className="text-left">
                     As a programming student, I have already completed several projects, some of which I would like to
                     share
