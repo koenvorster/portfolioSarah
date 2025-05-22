@@ -15,7 +15,7 @@ const Home: FC = () => {
       <AboutSection/>
 
         <SkillsSection1/>
-        <Carouselsection/>
+
       <ContactSection/>
     </div>
 

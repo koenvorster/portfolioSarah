@@ -11,10 +11,8 @@ const Contact: React.FC = () => {
     <div className="contact-page py-12">
       <div className="sectionContainer2 mx-auto px-6">
         <HeaderSection />
-        <div className="card grid grid-cols-1 md:grid-cols-2 gap-12">
-          <ProfessionalBackground />
+
           <SocialMediaLinks />
-        </div>
         <ContactInfo />
       </div>
     </div>

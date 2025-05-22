@@ -29,7 +29,7 @@ const ProjectSection: React.FC = () => {
           </div>
           <div className="skills-cards-container">
             {skills.map((skill) => (
-                <div key={skill.id} className="cardProject bg-white shadow-md rounded-lg p-4">
+                <div key={skill.id} className="cardProject">
                   <Link to={skill.link || "#"} className="button">
 
                     <img

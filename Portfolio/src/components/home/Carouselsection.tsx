@@ -3,6 +3,7 @@
         import { FaReact, FaPython, FaHtml5, FaCss3Alt, FaJs } from "react-icons/fa";
 
 
+
         const slides = [
             {
                 title: "Frontend Magic",
@@ -53,6 +54,7 @@
                                     backgroundImage: `url(${slide.backgroundImage})`,
                                     backgroundSize: "cover",
                                     backgroundPosition: "center",
+
                                 }}
                             >
                                 <div className="carousel-overlay">

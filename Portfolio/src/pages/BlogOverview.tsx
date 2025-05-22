@@ -57,7 +57,7 @@ const BlogOverview: React.FC = () => {
 
             </div>
             <div className="">
-                <div className="sectionContainer4">
+
                     {blogPosts.map((post) => (
                         <div key={post.id} className="blog-card">
                             <img src={post.image} alt={post.title} className="blog-card-image" />
@@ -71,7 +71,7 @@ const BlogOverview: React.FC = () => {
                         </div>
                     ))}
                 </div>
-            </div>
+
         </section>
     );
 };

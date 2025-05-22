@@ -1,0 +1,39 @@
+.about-me-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #E3ECF3; /* Warm Wit */
+}
+@media (min-width: 768px) {
+    .about-me-title {
+        padding-left: 120px;
+    }
+}
+.about-me-title .about {
+    color: white; /* White color for "About" */
+    margin-right: 10px; /* Space between "About" and "Me" */
+    margin-left: 20px; /* Space between "About" and "Me" */
+}
+
+.about-me-title .me {
+    color: #1B3E37; /* Dark green color for "Me" */
+    margin-left: 20px; /* Space between "About" and "Me" */
+}
+.aboutImage2
+{
+    max-height: 150px;
+    border-radius: 1rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 780px) {
+    .aboutImage2 {
+        max-height: 350px;
+        margin:  auto;
+    }
+    .text {
+        width: 100%;
+    }
+}

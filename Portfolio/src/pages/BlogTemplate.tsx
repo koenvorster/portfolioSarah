@@ -18,7 +18,9 @@ const BlogTemplate: React.FC<BlogTemplateProps> = ({ title, image, content, auth
 
         </header>
         <div className="blog-content">
+           < div className="blog-image-container">
         <img src={image} alt={title} className="blog-image"/>
+            </div>
             <article className="">
                 <p className="text-right">{content}</p>
 
