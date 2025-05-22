@@ -1,4 +1,6 @@
 import { FC, useEffect, useState } from "react";
+import {Link} from "react-router-dom";
+import {FaHtml5, FaLaptop} from "react-icons/fa";
 
 interface Project {
   id: number;
@@ -60,7 +62,10 @@ const Projects: FC = () => {
 
       {/* Project Cards */}
         <div className="sectionContainer1">
+
             <div className="card7">
+                <div className="buttoncontainer">   <FaLaptop size={40} color="#cc5c2d"  className="logo3"/></div>
+
                 <p className="text-left">
                     As a programming student, I have already completed several projects, some of which I would like to
                     share
@@ -128,7 +133,7 @@ const Projects: FC = () => {
                                 <p className="  card-text text-gray-600">{project.description}</p>
                                 <div className="buttoncontainer">
                                 <button>
-                                    <a href={project.link}>  View Project</a>
+                                    <Link to={project.link} >  View Project</Link>
                                 </button>
                             </div>
                             </div>

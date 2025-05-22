@@ -1,6 +1,8 @@
-
-        import Slider from "react-slick";
+import Slider, { Settings } from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
         import { FaReact, FaPython, FaHtml5, FaCss3Alt, FaJs } from "react-icons/fa";
+
 
 
         const slides = [
@@ -31,18 +33,19 @@
             },
         ];
 
-        const CarouselPortfolio = () => {
+        const CarouselSection = () => {
             const settings = {
                 dots: true,
                 infinite: true,
-                speed: 200,
+                speed: 20,
                 slidesToShow: 1,
-                slidesToScroll: 1,
+                slidesToScroll: 4,
                 autoplay: false,
                 autoplaySpeed: 4000,
             };
 
             return (
+                <div className="cards-container">
                 <div className="carousel-container">
                     <Slider {...settings}>
                         {slides.map((slide, index) => (
@@ -53,6 +56,7 @@
                                     backgroundImage: `url(${slide.backgroundImage})`,
                                     backgroundSize: "cover",
                                     backgroundPosition: "center",
+
                                 }}
                             >
                                 <div className="carousel-overlay">
@@ -63,7 +67,8 @@
                         ))}
                     </Slider>
                 </div>
+                </div>
             );
         };
 
-        export default CarouselPortfolio;
+        export default CarouselSection;

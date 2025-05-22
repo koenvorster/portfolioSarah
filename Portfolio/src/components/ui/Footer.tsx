@@ -1,5 +1,5 @@
 import  { FC } from "react";
-import {FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaLocationArrow, FaPhone} from "react-icons/fa";
+import {FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaLocationArrow} from "react-icons/fa";
 import {Link} from 'react-router-dom'
 
 
@@ -49,7 +49,6 @@ const Footer: FC = () => {
 
                 <p className="text-sm"><FaEnvelope size={20} className="location-icon"/> sarah.janssen@gmail.com</p>
                 <p className="text-sm"><FaLocationArrow size={20} className="location-icon"/> Belgium, Turnhout</p>
-                <p className="text-sm"><FaPhone size={20} className="location-icon"/> +32 476 23 45 67</p>
 
 
             </div>

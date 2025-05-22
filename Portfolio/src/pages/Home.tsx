@@ -13,7 +13,6 @@ const Home: FC = () => {
       <Hero/>
       <ProjectSection/>
       <AboutSection/>
-
         <SkillsSection1/>
         <Carouselsection/>
       <ContactSection/>

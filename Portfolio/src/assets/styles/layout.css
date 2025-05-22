@@ -1,15 +1,5 @@
 /* Layout styles */
-.sectionContainer1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    background-color: #1B3E37;
-    flex-wrap: wrap;
-    height: 100%;
-    margin-bottom: 10px;
-    padding-bottom: 40px;
-}
+
 
 .heroContainer {
     position: relative;
@@ -21,17 +11,7 @@
     justify-content: center;
 }
 
-.testing-item{
-    background-color: #2d2d2d;
-    color: white;
-    border-radius: 16px;
-    text-align: left;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    transition: transform 0.2s ease-in-out;
-    margin: 20px;
-    padding: 20px;
-    max-width: 400px;
-}
+
 /*Sections*/
 .containerfoto{
     display: flex;
@@ -45,10 +25,10 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    width: 100%;
     background-color: #1B3E37;
     flex-wrap: wrap;
     height: 100%;
+    margin-bottom: 10px;
 }
 
 .sectionContainer2 {
@@ -61,7 +41,7 @@
     background-repeat: no-repeat;
     min-height: 800px;
     flex-wrap: wrap;
-    gap: 0; /* Space between elements */
+    gap: 20px; /* Space between elements */
 }
 
 .sectionContainer2 h1 {
@@ -111,6 +91,14 @@
         height: 350px;
 
     }
+    .sectionContainer1 {
+        flex-direction: row; /* All elements in a row */
+    }
+    .sectionContainer1 .cardProject {
+
+
+
+    }
 }
 
 
@@ -120,8 +108,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 20px;
-    padding: 40px;
+    gap: 30px;
+    padding: 10px;
     background-color: #1B3E37;
     background-image: url('../../../public/assets/img/foto/Achtergrond/schilderachtergrond.jpg');
     background-size: cover;
@@ -129,6 +117,8 @@
     background-repeat: no-repeat;
     flex-wrap: wrap;
     height: 100%;
+    margin-bottom: 10px;
+    width: 100%;
 
 }
 .sectionContainer4{
@@ -142,6 +132,8 @@
     background-repeat: no-repeat;
     flex-wrap: wrap;
     height: 100%;
+    margin-bottom: 10px;
+
 }
 .sectionContainer5{
     display: flex;
@@ -179,4 +171,13 @@
     z-index: 1;
     font-family: 'Arial', sans-serif;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.skills-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #1B3E37;
+
 }

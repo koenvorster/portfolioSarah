@@ -1,0 +1,69 @@
+/* Contact page */
+/* Contact sectie stijl stuk */
+.contact-container {
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url('/assets/img/foto/achtergrond/achtergrondwolken.jpg');
+}
+
+/* Header Section */
+.contact-page h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #CC5C2D;
+    margin-bottom: 1rem;
+}
+
+.contact-page p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: white;
+}
+
+
+/* Contact Information Section */
+.contact-page .grid-cols-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-page .grid-cols-1 h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #CC5C2D;
+    margin-bottom: 1rem;
+}
+
+.contact-page .grid-cols-1 p {
+    font-size: 1rem;
+    color: #d1e4d0;
+}
+
+.contact-page .social-icons a {
+    color: #CC5C2D;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+}
+
+.contact-page .social-icons a:hover {
+    color: #6fbfa3;
+}
+
+
+.contact-page .text-center {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #d1e4d0;
+}
+.contact-page .text-center a {
+    color: #8fddc7;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+.contact-page .text-center a:hover {
+    text-decoration: underline;
+}
