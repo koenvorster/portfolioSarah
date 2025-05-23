@@ -15,6 +15,7 @@ import BlogOverview from "@/pages/BlogOverview.tsx";
 import Blog_robocup from "@/pages/Blog_robocup.tsx";
 import Blog_hackathon from "@/pages/Blog_hackathon.tsx";
 import Blog_internship from "@/pages/Blog_internship.tsx";
+import ErrorPage from "@/pages/ErrorPage.tsx";
 
 
 
@@ -22,7 +23,6 @@ import Blog_internship from "@/pages/Blog_internship.tsx";
 const App: React.FC = () => {
   return (
     <>
-
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/projects' element={<Projects />} />
@@ -39,9 +39,8 @@ const App: React.FC = () => {
         <Route path='/blog/Blog_robocup' element={<Blog_robocup />} />
         <Route path='/blog/Blog_internship' element={<Blog_internship />} />
         <Route path='/blog/Blog_hackathon' element={<Blog_hackathon />} />
-
+        <Route path='*' element={<ErrorPage />} />
       </Routes>
-
     </>
   )
 }

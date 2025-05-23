@@ -24,15 +24,36 @@ const ContactSection: React.FC = () => {
                 {/* Google Maps */}
                 <div className="cardcontact">
                     <h2 className="card-title">Connect with Me:</h2>
-                    <div className="text-left">
-
-                        <p><i className="fab fa-linkedin icon"></i> Linkdin/SarahJanssen</p>
-                        <p><i className="fab fa-github icon"></i> github.com/SarahJanssen</p>
-                        <p><i className="fab fa-instagram icon"></i> instagram.com/SarahJanssen</p>
-                        <p><i className="fas fa-globe icon"></i> www.sarah-janssen.be</p>
-                        <p><i className="fas fa-envelope icon "></i> Sarahjanssen1991@gmail.com</p>
+                    <p className="card-text2">
+                        Follow me on social media to stay updated on my latest projects and
+                        professional journey.
+                    </p>
+                    <div className="socialscontact">
+                        <ul>
+                            <li>
+                                <a href="https://www.linkedin.com/in/SarahJanssen" target="_blank"
+                                   rel="noopener noreferrer">
+                                    <i className="fab fa-linkedin list-socials"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/SarahJanssen" target="_blank" rel="noopener noreferrer">
+                                    <i className="fab fa-github list-socials"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/SarahJanssen" target="_blank"
+                                   rel="noopener noreferrer">
+                                    <i className="fab fa-instagram list-socials"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:Sarahjanssen1991@gmail.com">
+                                    <i className="fas fa-envelope list-socials"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-
                 </div>
 
                 {/* Contact Information */}

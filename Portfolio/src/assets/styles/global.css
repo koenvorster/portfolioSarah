@@ -68,11 +68,9 @@ h3 {
     text-align: left;
 }
 .text-left{
-    font-size: 16px;
-    color: #E4ECDA; /* Oranje Rood */
-    margin: 20px 0 20px 0;
-    font-weight: bold;
     text-align: left;
+    color: #E4ECDA;
+    margin-top: 30px;
 }
 
 
