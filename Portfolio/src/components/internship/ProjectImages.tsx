@@ -3,7 +3,7 @@ import { FC } from "react";
 
 const ProjectImages: FC = () => {
   return (
-      <div className="sectionContainer1">
+      <div className="sectionContainer2">
           <h2>Project Images</h2>
 
 

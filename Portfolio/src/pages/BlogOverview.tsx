@@ -33,7 +33,7 @@ const BlogOverview: React.FC = () => {
                     id: 3,
                     title: "Robocup 2024",
                     description: "A fantastic experience at RoboCup Eindhoven, exploring robotics and AI." +
-                        "\n" + "The event was a showcase of the latest developments in robotics. Robots competing on the field, each programmed to work as a team and score – it was a fascinating spectacle! It was a great mix of sport and technology, giving a new dimension to what is possible with robotics." ,
+                        "\n" + "The event was a showcase of the latest developments in robotics. Robots competing on the field, each programmed to work as a team and score – it was a fascinating spectacle!" ,
 
                     image: "/assets/img/foto/Blog/robocup2024.jpg",
                     link: "/blog/Blog_Robocup",
@@ -63,11 +63,13 @@ const BlogOverview: React.FC = () => {
                         <div key={post.id} className="blog-card">
                             <img src={post.image} alt={post.title} className="blog-card-image" />
                             <div className="blog-card-content">
-                                <h2 className="blog-card-title">{post.title}</h2>
+                                <h3 className="blog-card-title">{post.title}</h3>
                                 <p className="blog-card-description">{post.description}</p>
-                                <Link to ={post.link} className="btn1">
+                                <div className="button-container">
+                                <Link to ={post.link} className="btnblog">
                                     Read More
                                 </Link>
+                                </div>
                             </div>
                         </div>
                     ))}

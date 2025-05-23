@@ -171,3 +171,32 @@
     padding: 10px;
     margin-top: 20px;
 }
+.icon3{
+    padding: 20px;
+    color: #cc5c2d; /* Warm Wit */
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border: 2px solid #cc5c2d; /* Warm Wit */
+}
+.VideoInternschipDemo {
+    max-width: 80%;
+    height: auto;
+    border-radius: 16px;
+
+    margin: 5% 20% 5% 20%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+@media (max-width: 768px) {
+    .VideoInternschipDemo {
+      min-width: 95%;
+        margin: 0;
+        padding: 0;
+
+    }
+}
