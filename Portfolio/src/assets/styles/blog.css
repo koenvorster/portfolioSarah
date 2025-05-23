@@ -2,10 +2,9 @@
 /* Blog Section */
 .blog-template-container {
 
-    max-width: 100%;
+    max-width: 60%;
     margin: auto;
-
-    background-image: url('./assets/img/foto/achtergrond/schilderachtergrond3.jpg');
+    background-image: url('/assets/img/foto/achtergrond/schilderachtergrond3.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,6 +13,18 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 
 }
+@media (max-width: 768px) {
+    .blog-template-container {
+        padding: 20px;
+        margin: 0;
+        background-image: url('/assets/img/foto/achtergrond/schilderachtergrond3.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        max-width: 100%;
+    }
+}
+
 .cardTravelblog{
     background-color: #2d2d2d;
     color: white;
@@ -66,7 +77,7 @@
 
 .blog-content {
 
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.4;
     color: #e3ecf3;
     padding: 2.5rem;
@@ -91,7 +102,7 @@ min-width: 90%;
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
     font-size: 1rem; /* Font size for text */
-    line-height: 1.6; /* Line height for readability */
+    line-height: 1.1; /* Line height for readability */
     min-width: 300px; /* Minimum width for the card */
     max-width: 650px; /* Limit the card width */
     margin: 15px auto; /* Center the card with margin */
