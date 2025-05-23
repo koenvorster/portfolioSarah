@@ -21,21 +21,24 @@ const ContactSection: React.FC = () => {
 
                 </div>
 
-                {/* Google Maps */}
+                {/* Contact Information */}
+
                 <div className="cardcontact">
                     <h2 className="card-title">Connect with Me:</h2>
                     <div className="text-left">
 
-                        <p><i className="fab fa-linkedin icon"></i> Linkdin/SarahJanssen</p>
-                        <p><i className="fab fa-github icon"></i> github.com/SarahJanssen</p>
-                        <p><i className="fab fa-instagram icon"></i> instagram.com/SarahJanssen</p>
-                        <p><i className="fas fa-globe icon"></i> www.sarah-janssen.be</p>
-                        <p><i className="fas fa-envelope icon "></i> Sarahjanssen1991@gmail.com</p>
+                        <p className="card-text pt-5">
+                            <a className="fab fa-linkedin icon" href="https://www.linkedin.com/in/sarah-janssen-27566a266/"></a>
+                            <a className="fab fa-github icon" href="https://github.com/Sarah-Janssen"></a>
+                            <a className="fab fa-instagram icon" href="https://www.instagram.com/janssen_sarah/"></a>
+                            <a className="fas fa-envelope icon " href="mailto:janssen.sarah1991@gmail.com"></a>
+                        </p>
                     </div>
 
                 </div>
 
-                {/* Contact Information */}
+
+                {/* Google Maps */}
                 <div className="cardcontact">
                     <h2 className="card-title">Location:</h2>
                     <div className="text-left">
@@ -43,7 +46,7 @@ const ContactSection: React.FC = () => {
                         <p></p>
                     </div>
                     <iframe
-                        title="Google Maps - Turnhout"
+                      title="Google Maps - Turnhout"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.469768091091!2d4.937019315745091!3d51.32276097960244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c14a5b5b5b5b5b5b5b%3A0x5b5b5b5b5b5b5b5b!2sTurnhout!5e0!3m2!1sen!2sbe!4v1234567890123"
                         width="380"
                         height="260"
