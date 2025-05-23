@@ -165,9 +165,18 @@ margin-left: 4.5rem;
 
 .testing-list {
   display: flex;
+    flex-direction: row;
     padding-left: 1.5rem;
     font-size: 1.1rem;
     color:white;
+
+}
+@media (max-width: 768px) {
+    .testing-list {
+        padding-left: 0;
+        margin-left: 0;
+        flex-direction: column;
+    }
 }
 .testing-image{
     width: 100%;

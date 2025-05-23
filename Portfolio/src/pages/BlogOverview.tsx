@@ -59,7 +59,7 @@ const BlogOverview: React.FC = () => {
             </p>
 
             </div>
-            <div className="cards-container">
+            <div className="sectionContainer1 container">
 
                     {blogPosts.map((post) => (
                         <div key={post.id} className="blog-card">

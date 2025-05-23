@@ -113,7 +113,7 @@
 /* navbar projecten */
 .navbarprojects {
     background-color: #1B3E37;
-    padding: 0.5rem 1rem;
+    padding: 5px;
     top: 0;
     z-index: 1000;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -121,8 +121,22 @@
     border-radius: 10px;
     flex-direction: row;
     flex-grow: initial;
+}
+@media (max-width: 768px) {
+    .navbarprojects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        max-width: 80%;
+        margin: 10%;
 
-
+    }
+    .navbarprojects > button {
+        margin: 1px 0;
+        width: 260px;
+    }
 }
 .navbarprojects > button {
     background-color: #cc5c2d;
@@ -134,11 +148,8 @@
     transition: color 0.3s ease;
     margin:10px;
     height: 45px;
-    min-width: 200px;
+    width: 350px;
     Text-align: center;
-
-
-
 }
 .navbarprojects > button:hover {
     background-color: #e06b3f;
@@ -162,6 +173,6 @@
     font-weight: 700;
     cursor: pointer;
     transition: color 0.3s ease;
-    margin: 5px 75px;
+    margin: 5px 15px;
     height: 38px;
 }
