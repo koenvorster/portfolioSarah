@@ -70,7 +70,6 @@ const BlogOverview: React.FC = () => {
 
                                 <Link to={post.link} className="card-button">
 
-                                <Link to ={post.link} className="btn1">
 
                                     Read More
                                 </Link>
