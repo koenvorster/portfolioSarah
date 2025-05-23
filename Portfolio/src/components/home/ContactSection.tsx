@@ -31,24 +31,24 @@ const ContactSection: React.FC = () => {
                     <div className="socialscontact">
                         <ul>
                             <li>
-                                <a href="https://www.linkedin.com/in/SarahJanssen" target="_blank"
+                                <a href="https://www.linkedin.com/in/sarah-janssen-27566a266/" target="_blank"
                                    rel="noopener noreferrer">
                                     <i className="fab fa-linkedin list-socials"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/SarahJanssen" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/Sarah-Janssen" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-github list-socials"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/SarahJanssen" target="_blank"
+                                <a href="https://www.instagram.com/janssen_sarah/" target="_blank"
                                    rel="noopener noreferrer">
                                     <i className="fab fa-instagram list-socials"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="mailto:Sarahjanssen1991@gmail.com">
+                                <a href="mailto:janssen.sarah1991@gmail.com">
                                     <i className="fas fa-envelope list-socials"></i>
                                 </a>
                             </li>

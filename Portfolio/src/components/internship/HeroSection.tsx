@@ -7,7 +7,7 @@ const HeroSection: FC = () => {
           <div className="internship-header ">
               <div className="i">
                   <video
-                      src="/assets/img/Videoproject_portugal.mp4"
+                      src="/assets/img/Erasmus_Beja_Portugal_2025.mp4"
                       className="internship-video"
                       controls
                   />
@@ -17,7 +17,7 @@ const HeroSection: FC = () => {
           <div className="cardintro text-center">
 
               <p className="card-text">
-                  During my internship in Beja, Portugal, I worked on creating a water monitoring app.
+                  During my traineeship in Beja, Portugal, I worked on creating a water monitoring app.
                   This project involved designing and developing a user-friendly interface, integrating
                   real-time data, and ensuring the app met the needs of the stakeholders.
               </p>

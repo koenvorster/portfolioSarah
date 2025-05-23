@@ -1,4 +1,4 @@
-import { FC } from "react";
+import React, { FC } from "react";
 import {
     FaJs,
     FaHtml5,
@@ -86,7 +86,7 @@ const Skills: FC = () => {
 <div className="card2">
             {/* Soft Skills */}
 <h2 className="marginbotom">Soft skills</h2>
-  <SkillsList title="" className="title"
+  <SkillsList title="skills"
 
                 items={[
                     <SkillItem icon={<FaDrawPolygon className="icon" />} label="Creativity" />,
