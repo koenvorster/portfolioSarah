@@ -19,7 +19,7 @@ const HobbiesAndNature: FC = () => {
                           className=" foto_planten "
                       />
                   </div>
-                  <div className="text-card">
+                  <div className="text-left">
                   <p className="">
                       Besides spending time behind my laptop, I also enjoy other hobbies. I love spending time with my
                       dog

@@ -1,7 +1,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-        import { FaReact, FaPython, FaHtml5, FaCss3Alt, FaJs } from "react-icons/fa";
+import { FaReact, FaPython, FaHtml5, FaCss3Alt, FaJs } from "react-icons/fa";
 
 
 

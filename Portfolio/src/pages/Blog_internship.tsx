@@ -5,7 +5,7 @@ const BlogDetailPage: React.FC = () => {
   return (
     <BlogTemplate
       title="Mijn Erasmus Stage in Beja, Portugal"
-      image="/src/assets/img/foto/Blog/IPBejaStage.jpg"
+      image="/assets/img/foto/Blog/IPBejaStage.jpg"
       content="Last months, I had the privilege of doing my Erasmus internship in Beja, Portugal.
        It was an adventure I won't soon forget, both professionally and personally.
        When I arrived as a stranger, I had no idea that I would leave feeling like Beja had become my second home.
