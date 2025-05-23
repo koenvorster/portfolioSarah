@@ -37,11 +37,14 @@ import "slick-carousel/slick/slick-theme.css";
             const settings = {
                 dots: true,
                 infinite: true,
-                speed: 20,
+                speed: 500,
                 slidesToShow: 1,
-                slidesToScroll: 4,
-                autoplay: false,
+                slidesToScroll: 1,
+                autoplay: true,
                 autoplaySpeed: 4000,
+                cssEase: "linear",
+                pauseOnHover: true,
+                fade: true,
             };
 
             return (

@@ -1,1 +1,34 @@
 
+/* Add this to your slick-custom.css file */
+.carousel-container {
+    max-width: 95%;
+    height: 300px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background */
+}
+
+.carousel-slide {
+    margin-top: 80px !important;
+    height: 200px !important;
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    opacity: 1 !important;
+}
+
+/* Override slick slider default styles */
+
+
+.slick-active {
+    opacity: 1 !important;
+    z-index: 1;
+}
+
+
+
+/* Add transitions for smooth icon changes */
+.carousel-overlay svg {
+    transition: all 0.3s ease;
+    opacity: 1 !important;
+}

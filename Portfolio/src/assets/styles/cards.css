@@ -109,7 +109,7 @@ display: flex;
 }
 .buttoncontainer{
     gap: 10px;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
@@ -127,7 +127,6 @@ display: flex;
     font-weight: bold;
     line-height: 2.4;
     padding: 20px 30px;
-
     border-radius: 20px;
     border: none;
     cursor: pointer;
@@ -160,6 +159,17 @@ display: flex;
     border-radius: 16px;
     height: 160px;
 }
+.card-text2{
+    font-size: 1.2rem;
+    color: #E3ECF3; /* Warm Wit */
+
+    text-align: left;
+    justify-content: center;
+    margin:   70px 20px;
+    border-radius: 16px;
+    height: 40px;
+
+}
 
 
 .map-container {
@@ -167,12 +177,13 @@ display: flex;
     max-width: 400px;
     min-width: 300px;
     height: 300px;
-    border-radius: 16px;
+    border-radius: 30px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    margin: auto;
+
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 /*Cards*/
@@ -434,4 +445,18 @@ button, .btn {
 
 }.card_about:hover {
     transform: scale(1.05); /* Scale effect on hover */
+}
+.error-animation {
+    animation: fadeInUp 0.5s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

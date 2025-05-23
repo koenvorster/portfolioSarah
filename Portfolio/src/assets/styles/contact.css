@@ -13,6 +13,7 @@
     font-weight: bold;
     color: #CC5C2D;
     margin-bottom: 1rem;
+    margin-top: 2rem;
 }
 
 .contact-page p {
@@ -66,4 +67,29 @@
 
 .contact-page .text-center a:hover {
     text-decoration: underline;
+}
+/* Social media icons container */
+.socialscontact ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 5px 15px 0 0; /* Adjusted margin for better alignment */
+}
+.list-socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Space between icons */
+    font-size: 40px; /* Adjust icon size */
+    color: #cc5c2d; /* Default icon color */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+    margin: 5px; /* Reset margin */
+}
+
+
+
+/* Hover effect */
+.list-socials:hover {
+    color: #479A7E; /* Change color on hover */
+    transform: scale(1.2); /* Slightly enlarge icon on hover */
 }
