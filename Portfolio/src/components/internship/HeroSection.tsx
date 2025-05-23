@@ -7,7 +7,7 @@ const HeroSection: FC = () => {
           <div className="internship-header ">
               <div className="i">
                   <video
-                      src="/assets/img/Videoproject_portugal.mp4"
+                      src="/assets/img/Erasmus_Beja_Portugal_2025.mp4"
                       className="internship-video"
                       controls
                   />
