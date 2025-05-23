@@ -32,22 +32,22 @@ const Footer: FC = () => {
 
             </div>
             <div className="social-icons">
-                <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank"
+                <a href="https://www.linkedin.com/in/sarah-janssen-27566a266/" target="_blank"
                    rel="noopener noreferrer">
                     <FaLinkedin size={30}/>
                 </a>
-                <a href="https://www.instagram.com/your-instagram-profile" target="_blank"
+                <a href="https://www.instagram.com/janssen_sarah/" target="_blank"
                    rel="noopener noreferrer">
                 <FaInstagram size={30}/>
                 </a>
-                <a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/Sarah-Janssen" target="_blank" rel="noopener noreferrer">
                     <FaGithub size={30}/>
                 </a>
             </div>
 
             <div className="text-right">
 
-                <p className="text-sm"><FaEnvelope size={20} className="location-icon"/> sarah.janssen@gmail.com</p>
+                <p className="text-sm"><FaEnvelope size={20} className="location-icon"/> janssen.sarah1991@gmail.com</p>
                 <p className="text-sm"><FaLocationArrow size={20} className="location-icon"/> Belgium, Turnhout</p>
 
 

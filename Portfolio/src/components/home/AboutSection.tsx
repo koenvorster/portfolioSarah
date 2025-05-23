@@ -9,7 +9,7 @@ const AboutSection: FC = () => {
         <h1 className="about-me-title flex-items">
           <span className="about">About </span><br/> <span className="me">me</span>
         </h1>
-        <img src="/assets/img/foto/achtergrond4sarah.jpg" alt="Contact"
+        <img src="/assets/img/foto/achtergrondSarah4.png" alt="Contact"
              className="aboutImage2"/>
         <div className=" card_about">
             <p className="lead mb-4">Wondering why I went back to college? Or rather curious about the person behind

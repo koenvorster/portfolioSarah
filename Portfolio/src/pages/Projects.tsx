@@ -1,6 +1,6 @@
 import { FC, useEffect, useState } from "react";
 import {Link} from "react-router-dom";
-import {FaHtml5, FaLaptop} from "react-icons/fa";
+import { FaLaptop} from "react-icons/fa";
 
 interface Project {
   id: number;

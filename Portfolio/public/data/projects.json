@@ -1,8 +1,8 @@
 [
     {
       "id": 1,
-      "title": "Internship Beja",
-      "description": "This project involved designing and developing a user-friendly interface, integrating  real-time data. The project was completed within a tight deadline and required effective communication and collaboration with the team.",
+      "title": "Traineeship Portugal",
+      "description": "This project involved designing and developing a user-friendly interface, integrating  real-time data.",
       "image": "/assets/img/foto/cardsProjecten/projectBeja2.jpg",
 
       "link": "/Internship",
@@ -26,31 +26,31 @@
       "category": "School Projects"
     },
     {
-      "id": 1,
+      "id": 4,
       "title": "Plant.js",
-      "description": "This project involved creating a website for a plant shop. The website features a clean and modern design, with sections for products, services, and contact information.",
+      "description": "This project is focused on creativity and networking where I bring my hobby to life on Instagram. I focussed on care about plants and photografy.",
       "image": "/assets/img/foto/cardsProjecten/planten1.jpg",
-      "link": "https://example.com/project1",
+      "link": "https://www.instagram.com/plant.js",
       "category": "Create & Design"
     },
     {
-      "id": 2,
+      "id": 5,
       "title": "Design Project",
-      "description": "Focus on simplicity and elegance. Use of negative space and clean lines. Incorporating natural elements.  ",
+      "description": "In this project I focussed on designing interiors and make a minimalistic homedesign.",
       "image": "/assets/img/foto/cardsProjecten/designhouse.jpg",
       "link": "https://example.com/project2",
       "category": "Create & Design"
     },
   {
-    "id": 3,
+    "id": 6,
     "title": "Photography",
-    "description": "Capturing moments and emotions. Exploring different photography styles. Post-processing techniques. ",
+    "description": "Capturing moments and landscapes.",
     "image": "/assets/img/foto/cardsProjecten/fotowater.jpg",
     "link": "https://example.com/project2",
     "category": "Create & Design"
   },
     {
-      "id": 3,
+      "id": 7,
       "title": "Hackathon",
       "description": "Hackathon event. Teamwork and collaboration. Problem-solving skills.",
       "image":  "/assets/img/foto/cardsProjecten/eveningtalks.jpg",
@@ -58,7 +58,7 @@
       "category": "Extra"
     },
     {
-      "id": 4,
+      "id": 8,
       "title": "Hackademy",
       "description": "Talks and workshops. Networking opportunities. Learning from industry experts.",
       "image": "/assets/img/foto/cardsProjecten/eveningtalks.jpg",
@@ -66,7 +66,7 @@
       "category": "Extra"
     },
     {
-      "id": 5,
+      "id": 9,
       "title": "Robocup and AI talk",
       "description": "Meet whith Lieve Scheire and Learn about robotica. ",
       "image": "/assets/img/foto/cardsProjecten/robocup2024.jpg",
