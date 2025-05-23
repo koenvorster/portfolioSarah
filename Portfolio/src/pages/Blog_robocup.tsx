@@ -5,7 +5,7 @@ const BlogDetailPage: React.FC = () => {
   return (
     <BlogTemplate
       title="RoboCup Eindhoven: Een Fantastische Ervaring"
-      image="/src/assets/img/foto/AI_talk.jpg"
+      image="/assets/img/foto//Blog/robocup2024.jpg"
       content="Het evenement was een showcase van de nieuwste ontwikkelingen op het gebied van robotica. Van robots die zelfstandig door het terrein bewegen, tot geavanceerde systemen die in real-time reageren op hun omgeving. Maar wat RoboCup echt uniek maakte, waren de robotvoetbalwedstrijden. Robots die met elkaar strijden op het veld, elk geprogrammeerd om als een team samen te werken en te scoren – het was een fascinerend schouwspel! De manier waarop de robots tactisch bewegen en met elkaar communiceren om een doelpunt te maken, liet me echt zien hoe ver technologie is gevorderd. Het was een geweldige mix van sport en technologie, en het gaf een nieuwe dimensie aan wat mogelijk is met robotica.
 
 Een van de hoogtepunten van het weekend was de AI talk van Lieve Scheire. Als iemand die altijd geïnteresseerd is in de toepassingen van kunstmatige intelligentie, was het een unieke kans om van een expert op dit gebied te leren. Lieve sprak over de impact van AI op ons dagelijks leven en de ethische vraagstukken die met deze technologie gepaard gaan. Het was zowel informatief als inspirerend, en ik voelde me nog meer gemotiveerd om verder te duiken in de wereld van AI en robotica.
