@@ -47,7 +47,7 @@ const Navbar: FC = () => {
               Home
             </Link>
             <Link to="/projects" className="nav-link" onClick={closeMenu}>
-              My portfolio
+              Projects
             </Link>
             <Link to="/about" className="nav-link" onClick={closeMenu}>
               About

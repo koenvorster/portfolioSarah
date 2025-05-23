@@ -2,7 +2,7 @@ import React from "react";
 
 const SkillsSection1: React.FC = () => {
     const hardSkills = [
-        { name: "C#, Python, JavaScript", icon: "fas fa-code" },
+        { name: "C#, Python, TypeScript", icon: "fas fa-code" },
         { name: "HTML, CSS, Bootstrap ", icon: "fab fa-html5" },
         { name: "SQL, PostgreSQL", icon: "fas fa-database" },
         { name: "Cypress, Playwright", icon: "fas fa-vial" },

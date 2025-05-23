@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
-import {Link} from "react-router-dom";
+
+import {Link} from 'react-router-dom'
+
 
 interface BlogPost {
     id: number;
@@ -65,7 +67,11 @@ const BlogOverview: React.FC = () => {
                             <div className="blog-card-content">
                                 <h2 className="blog-card-title">{post.title}</h2>
                                 <p className="blog-card-description">{post.description}</p>
+
+                                <Link to={post.link} className="card-button">
+
                                 <Link to ={post.link} className="btn1">
+
                                     Read More
                                 </Link>
                             </div>

@@ -56,7 +56,11 @@ display: flex;
     height: 650px;
     /* Adjusted height for better layout */
     /* max-width: 400px; */
-    margin: 40px 50px 0px 0px;
+
+    margin: 40px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
     font-size: 1.2rem;
     line-height: 1.1;
 }
@@ -75,8 +79,7 @@ max-width: 100%;
 }
 .cardProject img {
     border-bottom: 2px solid #00bcd4;
-
-   width: 350px;
+    width: 350px;
     height: 300px;
     border-radius: 16px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -149,11 +152,10 @@ max-width: 100%;
 
 .card-img {
     border-radius: 16px;
-
-
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     margin: auto;
     transition: transform 0.2s ease-in-out;
+    height: auto;
 }
 .card-text{
     font-size: 1.2rem;
