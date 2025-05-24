@@ -181,3 +181,121 @@
     background-color: #1B3E37;
 
 }
+
+
+
+/*Grid Project images*/
+.grid-container {
+    display: grid;
+    grid-gap: 50px 100px;
+    padding: 10px;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.grid-item {
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 4 / 3; /* zorgt voor gelijke hoogte kaarten met vaste verhouding */
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+/* Afbeeldingen netjes binnen hun kaart tonen */
+.grid-item img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+/* Tekstvakken gecentreerd */
+.grid-item-text, .grid-item-texti {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
+
+/*Grid TestSection*/
+.grid-container2 {
+    display: grid;
+    grid-gap: 50px 100px;
+    padding: 10px;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+    .grid-container2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .grid-container2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.grid-container3 {
+    display: grid;
+    grid-gap: 50px 100px;
+    padding: 10px;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 1024px) {
+    .grid-container3 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.grid-item2 {
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+/* Afbeeldingen netjes binnen hun kaart tonen */
+.grid-item2 img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+/* Tekstvakken gecentreerd */
+.grid-item-text2, .grid-item-texti2 {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
+}
