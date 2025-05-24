@@ -12,7 +12,6 @@ const Internship: FC = () => {
       <h1 className="text-3xl font-bold mb-6">Traineeship in Beja</h1>
       <HeroSection />
       <ProjectOverview />
-
         <VideoSection />
         <TestingSection />
       <ProjectImages />
