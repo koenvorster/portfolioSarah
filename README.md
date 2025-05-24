@@ -1,7 +1,7 @@
 
 
 # Portfolio
-int the process of creating a portfolio website to showcase my projects and skills. 
+In the process of creating a portfolio website to showcase my projects and skills. 
 The website will be built using React, TypeScript, and Vite, with a focus on performance and user experience.
 My name is Sarah and I am a software engineer with a passion for web development.
 I have experience in building responsive and user-friendly web applications using modern technologies.
