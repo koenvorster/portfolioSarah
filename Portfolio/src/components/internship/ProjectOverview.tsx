@@ -7,7 +7,7 @@ const ProjectOverview: FC = () => {
           <h2>Project Overview</h2>
 
           <div className="card">
-              <img src="/assets/img/foto/Project_Beja/lab_Beja.jpg" alt="Logo" className="foto-card"/>
+              <img src="/assets/img/foto/Project_Beja/lab_Beja.png" alt="Logo" className="foto-card"/>
               <h3 className="text-2xl font-bold text-[#d1e4d0] mb-4">The lab</h3>
 
               <p className="text-lg leading-relaxed text-[#d1e4d0] mb-4">
@@ -56,9 +56,9 @@ const ProjectOverview: FC = () => {
           </div>
           <div className="card ">
               <img src="/assets/img/foto/Project_Beja/project_internship.jpg" alt="Logo" className="foto-card"/>
-                <h3 className="text-2xl font-bold text-[#d1e4d0] mb-4">Internship Experience</h3>
+                <h3 className="text-2xl font-bold text-[#d1e4d0] mb-4">Traineeship Experience</h3>
               <p className="text-lg leading-relaxed text-[#d1e4d0] mb-4">
-                  The internship provided me with valuable experience in project management, teamwork, and
+                  The traineeship provided me with valuable experience in project management, teamwork, and
                   problem-solving. I learned how to effectively communicate in a international organisation.
               </p>
           </div>

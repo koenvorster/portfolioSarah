@@ -9,6 +9,7 @@
     padding: 20px;
     min-width: 220px;
     max-width: 400px;
+    min-height: 250px;
     animation: fadeIn 0.5s ease-in-out;
 }
 .testing-item:hover {
@@ -69,7 +70,7 @@ display: flex;
 max-width: 100%;
         flex-wrap:wrap; /* All elements in a row */
         width: 100%;
-        padding: 0px;
+        padding: 0;
 
     }
 }
@@ -236,7 +237,7 @@ max-width: 100%;
     .card_mynameis {
         flex-wrap:wrap; /* All elements in a row */
         width: 100%;
-        padding: 0px;
+        padding: 0;
     }
 }
 .card4 {
@@ -446,7 +447,7 @@ button, .btn {
     font-size: 1rem; /* Font size for text */
     line-height: 1.6; /* Line height for readability */
     max-width: 400px; /* Limit the card width */
-    margin: 15px 150px 0px; /* Center the card with margin */
+    margin: 15px 150px 0; /* Center the card with margin */
     text-align: center; /* Center-align text */
     backdrop-filter: blur(5px); /* Blur effect for transparency */
 
